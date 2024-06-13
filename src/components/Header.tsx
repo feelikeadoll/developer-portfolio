@@ -4,8 +4,8 @@ function Header() {
   return (
     <div className="pt-4">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        <div className="flex items-center justify-between font-montserrat w-2/5">
-          <NavLink to="/" className="text-lg font-bold tracking-widest">
+        <div className="flex items-center justify-between w-2/5">
+          <NavLink to="/" className="text-lg font-bold">
             LAIA NAVALON
           </NavLink>
           <NavLink to="/about" className="font-medium">
