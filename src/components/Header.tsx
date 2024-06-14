@@ -1,4 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 function Header() {
   return (
@@ -11,7 +12,9 @@ function Header() {
           <NavLink to="/about" className="font-medium">
             ABOUT
           </NavLink>
-          <h1 className="font-medium">CONTACT</h1>
+          <HashLink to="#footer" smooth className="font-medium">
+            CONTACT
+          </HashLink>
         </div>
         <div>
           <svg
