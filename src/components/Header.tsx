@@ -3,9 +3,9 @@ import { HashLink } from "react-router-hash-link";
 
 function Header() {
   return (
-    <div className="pt-4">
+    <div className="py-4 bg-black">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        <div className="flex items-center justify-between w-2/5">
+        <div className="flex items-center justify-between w-2/5 text-white">
           <NavLink to="/" className="text-lg font-bold">
             LAIA NAVALON
           </NavLink>

@@ -8,6 +8,10 @@ export default {
         lato: ["Lato"],
         garamond: ["Garamond"],
       },
+      colors: {
+        lightgrey: "#f6f6f6",
+        midgrey: "#D8D7D6",
+      },
     },
   },
   plugins: [],
