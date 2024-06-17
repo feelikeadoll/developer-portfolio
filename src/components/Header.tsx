@@ -12,7 +12,7 @@ function Header() {
           <NavLink to="/about" className="">
             ABOUT
           </NavLink>
-          <HashLink to="#footer" smooth className="">
+          <HashLink to="#contact" smooth className="">
             CONTACT
           </HashLink>
         </div>
