@@ -3,16 +3,16 @@ import { HashLink } from "react-router-hash-link";
 
 function Header() {
   return (
-    <div className="py-4 bg-black">
+    <div className="py-4 absolute w-full z-50">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <div className="flex items-center justify-between w-2/5 text-white">
           <NavLink to="/" className="text-lg font-bold">
             LAIA NAVALON
           </NavLink>
-          <NavLink to="/about" className="font-medium">
+          <NavLink to="/about" className="">
             ABOUT
           </NavLink>
-          <HashLink to="#footer" smooth className="font-medium">
+          <HashLink to="#footer" smooth className="">
             CONTACT
           </HashLink>
         </div>
@@ -36,7 +36,7 @@ function Header() {
                 {" "}
                 <path
                   d="M3 6.00092H21M3 12.0009H21M3 18.0009H21"
-                  stroke="#292929"
+                  stroke="#000"
                   strokeWidth="2.5"
                   strokeLinecap="round"
                   strokeLinejoin="round"
