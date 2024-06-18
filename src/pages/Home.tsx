@@ -56,7 +56,6 @@ function Home() {
             </div>
             <hr className="border mt-4" />
           </div>
-
           <div className="pt-16 max-w-7xl h-full flex flex-col items-start justify-center mx-auto ">
             <h3 className="text-md">HI, MY NAME IS LAIA!</h3>
             <p className="text-3xl">I am a Fullstack Developer</p>
@@ -67,15 +66,15 @@ function Home() {
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex-col">
             <h2 className="pt-20">QUALITY DRIVEN</h2>
-            <div className="flex items-center justify-evenly">
+            <div className="pt-10 flex items-center justify-evenly">
               <img src={HuetopiaDevices} alt="" className="w-2/3" />
-              <div className="flex-col w-1/4 items-start justify-between">
+              <div className="mb-24 w-1/4 flex flex-col items-center justify-between">
                 <p>
                   I specialise in creating innovative web-applications that work
                   from every device to provide the best user experience.
                 </p>
                 <Link to="/work">
-                  <button className="btn btn-neutral bg-black text-white">
+                  <button className="my-10 btn btn-neutral bg-black text-white">
                     <h3 className="text-md pr-2">SEE MY WORKS</h3>
                     <svg
                       width="30px"
