@@ -133,21 +133,28 @@ function Home() {
         className="w-full bg-midgrey text-black h-screen"
       >
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <h1>Commercial section</h1>
-          <img src="" alt="" />
+          <div className="flex flex-col justify-between h-screen">
+            <h1 className="pt-20">WORK</h1>
+            <div className="w-full flex justify-between items-center my-20">
+              <h2 className="text-7xl">Commercial</h2>
+              <p className="w-2/5">
+                I created the portfolio for a creative photography studio based
+                in Barcelona that craft the most beautiful content for beauty +
+                wellness brands.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
-      <section
-        id="personal"
-        className="w-full bg-lightgrey text-black h-screen"
-      >
+      <section id="personal" className="w-full bg-black text-white h-screen">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <h1>Personal section</h1>
+          <h1 className="text-7xl pt-16">Personal projects</h1>
         </div>
       </section>
       <section id="stack" className="w-full bg-white text-black h-screen">
-        <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <h1>Stack section</h1>
+        <div className="max-w-7xl mx-auto flex flex-col justify-between items-center h-screen">
+          <h1 className="pt-20 text-4xl font-normal">Current stack</h1>
+          <h5 className="py-20">BUT LEARNING NEVER STOPS!</h5>
         </div>
       </section>
     </div>
