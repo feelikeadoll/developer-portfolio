@@ -36,7 +36,7 @@ function Header() {
             CONTACT
           </HashLink>
         </div>
-        <button onClick={openNavbar}>
+        <button onClick={openNavbar} className="btn btn-ghost btn-square">
           <svg
             width="50px"
             height="50px"
