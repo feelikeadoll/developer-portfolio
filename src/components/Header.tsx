@@ -1,12 +1,25 @@
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 import LNlogo from "../assets/LN-logo-white.png";
 
+import Navbar from "./Navbar";
+
 function Header() {
+  const [displayNavbar, setDisplayNavbar] = useState<string>("hidden");
+
+  const openNavbar = (): void => {
+    setDisplayNavbar("block");
+  };
+  const closeNavbar = (): void => {
+    setDisplayNavbar("hidden");
+  };
+
   return (
-    <div className="py-4 absolute w-full z-40">
-      <div className="max-w-7xl mx-auto flex justify-between items-center">
+    <div className="absolute w-full z-40">
+      <Navbar displayNavbar={displayNavbar} closeNavbar={closeNavbar} />
+      <div className="py-4 max-w-7xl mx-auto flex justify-between items-center">
         <div className="flex items-center w-1/2 text-white">
           <NavLink to="/" className="text-lg font-bold flex items-center">
             <img
@@ -23,7 +36,7 @@ function Header() {
             CONTACT
           </HashLink>
         </div>
-        <div>
+        <button onClick={openNavbar}>
           <svg
             width="50px"
             height="50px"
@@ -63,7 +76,7 @@ function Header() {
               </defs>{" "}
             </g>
           </svg>
-        </div>
+        </button>
       </div>
     </div>
   );
