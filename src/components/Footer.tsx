@@ -30,7 +30,10 @@ function Footer() {
               </ul>
             </div>
             <div className="flex items-center">
-              <a href="https://www.linkedin.com/in/laianavalonarxe/">
+              <a
+                href="https://www.linkedin.com/in/laianavalonarxe/"
+                target="_blank"
+              >
                 <svg
                   className="mr-4"
                   width="34px"
@@ -54,7 +57,7 @@ function Footer() {
                   </g>
                 </svg>
               </a>
-              <a href="https://github.com/feelikeadoll">
+              <a href="https://github.com/feelikeadoll" target="_blank">
                 <svg
                   width="30px"
                   height="30px"
