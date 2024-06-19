@@ -5,9 +5,9 @@ import LNlogo from "../assets/LN-logo-white.png";
 
 function Header() {
   return (
-    <div className="py-4 absolute w-full z-50">
+    <div className="py-4 absolute w-full z-40">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        <div className="flex items-center justify-between w-1/2 text-white">
+        <div className="flex items-center w-1/2 text-white">
           <NavLink to="/" className="text-lg font-bold flex items-center">
             <img
               src={LNlogo}
@@ -16,10 +16,10 @@ function Header() {
             />
             LAIA NAVALON
           </NavLink>
-          <NavLink to="/about" className="hover:font-medium">
+          <NavLink to="/about" className="hover:font-medium ml-32">
             ABOUT
           </NavLink>
-          <HashLink to="#contact" smooth className="hover:font-medium">
+          <HashLink to="#contact" smooth className="hover:font-medium ml-36">
             CONTACT
           </HashLink>
         </div>
