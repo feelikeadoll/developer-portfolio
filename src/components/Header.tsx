@@ -1,18 +1,25 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+
+import LNlogo from "../assets/LN-logo-white.png";
 
 function Header() {
   return (
     <div className="py-4 absolute w-full z-50">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        <div className="flex items-center justify-between w-2/5 text-white">
-          <NavLink to="/" className="text-lg font-bold">
+        <div className="flex items-center justify-between w-1/2 text-white">
+          <NavLink to="/" className="text-lg font-bold flex items-center">
+            <img
+              src={LNlogo}
+              alt="Laia Navalon Arxe Fullstack Web Developer"
+              className="h-8 pr-8"
+            />
             LAIA NAVALON
           </NavLink>
-          <NavLink to="/about" className="">
+          <NavLink to="/about" className="hover:font-medium">
             ABOUT
           </NavLink>
-          <HashLink to="#contact" smooth className="">
+          <HashLink to="#contact" smooth className="hover:font-medium">
             CONTACT
           </HashLink>
         </div>
