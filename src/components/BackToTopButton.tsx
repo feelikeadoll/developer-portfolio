@@ -5,7 +5,7 @@ function BackToTopButton() {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      window.scrollY > 100 ? setBackToTop(true) : setBackToTop(false);
+      window.scrollY > 200 ? setBackToTop(true) : setBackToTop(false);
     });
   }, []);
 

@@ -7,6 +7,7 @@ import About from "./pages/About";
 import Work from "./pages/Work";
 import Commercial from "./pages/Commercial";
 import Personal from "./pages/Personal";
+import BackToTopButton from "./components/BackToTopButton";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/work/personal" element={<Personal />} />
       </Routes>
 
+      <BackToTopButton />
       <Footer />
     </div>
   );
