@@ -48,7 +48,7 @@ function Navbar(props: NavbarProps) {
               ></g>
               <g id="SVGRepo_iconCarrier">
                 {" "}
-                <g clip-path="url(#clip0_429_10978)">
+                <g clipPath="url(#clip0_429_10978)">
                   {" "}
                   <path
                     d="M16.9999 7.00004L6.99994 17"
