@@ -148,8 +148,48 @@ function About() {
       <section id="resume" className="w-full bg-midgrey text-black h-screen">
         {" "}
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <div className="flex-col">
+          <div className="flex-col w-full">
             <h2 className="pt-20">RESUME</h2>
+            <div className="w-full flex justify-center">
+              <div className="w-5/12 px-6">
+                <h3 className="text-4xl mt-10 mb-4">Education</h3>
+                <div className="w-11/12 mx-8">
+                  <h5 className="text-xl mt-8">Web Development Bootcamp</h5>
+                  <p className="text-sm">2024, Ironhack | remote</p>
+                  <h5 className="text-xl mt-8">
+                    Introduction to Computer Science
+                  </h5>
+                  <p className="text-sm">2023, Harvard’s CS50 | remote</p>
+                  <h5 className="text-xl mt-8">Image Consulting I and II</h5>
+                  <p className="text-sm">
+                    2019, Fashion Institute of Technology | New York, US
+                  </p>
+                  <h5 className="text-xl mt-8">Fashion Design</h5>
+                  <p className="text-sm">
+                    2010-2016, LCI Barcelona - FD Moda | Barcelona, Spain
+                  </p>
+                </div>
+              </div>
+              <div className="w-5/12 px-16 ">
+                <h3 className="text-4xl mt-10 mb-4">Experience</h3>
+                <div className="w-11/12 mx-8">
+                  <h5 className="text-xl mt-8">Fashion E-Commerce Founder</h5>
+                  <p className="text-sm">2019-2024, Some Things Never Fade</p>
+                  <h5 className="text-xl mt-8">Wholesale Representative</h5>
+                  <p className="text-sm">
+                    2022-2023, FashionLab Agency | New York, US
+                  </p>
+                  <h5 className="text-xl mt-8">
+                    Image consultant and CS Agent
+                  </h5>
+                  <p className="text-sm">
+                    2020, Vudoir Hub S.L. | remote for Spain and US brands
+                  </p>
+                  <h5 className="text-xl mt-8">Fashion Brand Founder</h5>
+                  <p className="text-sm">2016-2018, Arxé</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
