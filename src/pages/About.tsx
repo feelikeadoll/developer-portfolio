@@ -1,3 +1,5 @@
+import CurrentStack from "../components/CurrentStack";
+
 function About() {
   return (
     <div className="w-full">
@@ -36,6 +38,7 @@ function About() {
           </div>
         </div>
       </section>
+      <CurrentStack />
     </div>
   );
 }
