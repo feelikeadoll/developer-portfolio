@@ -152,7 +152,7 @@ function About() {
             <h2 className="pt-20">RESUME</h2>
             <div className="w-full flex justify-center">
               <div className="w-5/12 px-6">
-                <h3 className="text-4xl mt-10 mb-4">Education</h3>
+                <h3 className="text-4xl mt-8 mb-4">Education</h3>
                 <div className="w-11/12 mx-8">
                   <h5 className="text-xl mt-8">Web Development Bootcamp</h5>
                   <p className="text-sm">2024, Ironhack | remote</p>
@@ -171,10 +171,19 @@ function About() {
                 </div>
               </div>
               <div className="w-5/12 px-16 ">
-                <h3 className="text-4xl mt-10 mb-4">Experience</h3>
+                <h3 className="text-4xl mt-8 mb-4">Experience</h3>
                 <div className="w-11/12 mx-8">
                   <h5 className="text-xl mt-8">Fashion E-Commerce Founder</h5>
-                  <p className="text-sm">2019-2024, Some Things Never Fade</p>
+                  <p className="text-sm">
+                    2019-2024,{" "}
+                    <a
+                      href="https://www.somethingsneverfade.com/"
+                      target="_blank"
+                      className="underline underline-0"
+                    >
+                      Some Things Never Fade
+                    </a>
+                  </p>
                   <h5 className="text-xl mt-8">Wholesale Representative</h5>
                   <p className="text-sm">
                     2022-2023, FashionLab Agency | New York, US
@@ -183,12 +192,67 @@ function About() {
                     Image consultant and CS Agent
                   </h5>
                   <p className="text-sm">
-                    2020, Vudoir Hub S.L. | remote for Spain and US brands
+                    2020, Vudoir Hub S.L. | Spain and US brands
                   </p>
                   <h5 className="text-xl mt-8">Fashion Brand Founder</h5>
-                  <p className="text-sm">2016-2018, Arxé</p>
+                  <p className="text-sm">
+                    2016-2018,{" "}
+                    <a
+                      href="https://www.instagram.com/arxethelabel/"
+                      target="_blank"
+                      className="underline underline-0"
+                    >
+                      Arxé
+                    </a>
+                  </p>
                 </div>
               </div>
+            </div>
+            <div className="flex justify-center">
+              <button className="mt-16 btn btn-neutral bg-black text-white">
+                <h3 className="text-md pr-2">SEE MY FULL CV</h3>
+                <svg
+                  width="30px"
+                  height="30px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    {" "}
+                    <g clipPath="url(#clip0_429_11254)">
+                      {" "}
+                      <path
+                        d="M10 17L15 12"
+                        stroke="#ffffff"
+                        strokeWidth="2.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      ></path>{" "}
+                      <path
+                        d="M15 12L10 7"
+                        stroke="#ffffff"
+                        strokeWidth="2.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      ></path>{" "}
+                    </g>{" "}
+                    <defs>
+                      {" "}
+                      <clipPath id="clip0_429_11254">
+                        {" "}
+                        <rect width="24" height="24" fill="white"></rect>{" "}
+                      </clipPath>{" "}
+                    </defs>{" "}
+                  </g>
+                </svg>
+              </button>
             </div>
           </div>
         </div>
