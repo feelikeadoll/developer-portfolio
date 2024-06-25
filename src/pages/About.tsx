@@ -12,7 +12,11 @@ function About() {
         <div className="z-50">
           <div className="max-w-7xl pt-28 h-full flex flex-col items-start justify-center mx-auto ">
             <div className="w-2/3 pt-20 mb-4">
-              <h2 className="text-2xl">ABOUT ME</h2>
+              <h2 className="text-2xl">ABOUT</h2>
+              <p className="text-md">
+                My name is Laia and I am a Full Stack Developer from Barcelona,
+                even though I am currently located in Zamora.
+              </p>
 
               <p className="text-md">
                 After years of experience in the fashion industry, I decided to
@@ -23,6 +27,16 @@ function About() {
                 Computer Science, it was just the first step into freeing myself
                 from the limiting beliefs that kept me from growing and
                 evolving.
+              </p>
+              <p className="text-md">
+                Are you on LinkedIn?{" "}
+                <a
+                  href="https://www.linkedin.com/in/laianavalonarxe/"
+                  target="_blank"
+                  className="underline underline-0"
+                >
+                  Let's connect!
+                </a>
               </p>
             </div>
           </div>
@@ -35,7 +49,9 @@ function About() {
             <div className="flex items-center">
               <div className="flex flex-col items-center">
                 <h3 className="text-4xl my-4">Commercial</h3>
-                <img src={Commercial} alt="" className="w-10/12" />
+                <Link to="/work/commercial" className="w-10/12">
+                  <img src={Commercial} alt="" />
+                </Link>{" "}
                 <Link to="/work/commercial">
                   <button className="my-10 btn btn-neutral bg-black text-white">
                     <h3 className="text-md pr-2">SEE MORE</h3>
@@ -89,7 +105,9 @@ function About() {
               </div>
               <div className="flex flex-col items-center">
                 <h3 className="text-4xl my-4">Personal</h3>
-                <img src={Personal} alt="" className="w-10/12" />
+                <Link to="/work/personal" className="w-10/12">
+                  <img src={Personal} alt="" />
+                </Link>
                 <Link to="/work/personal">
                   <button className="my-10 btn btn-neutral bg-black text-white">
                     <h3 className="text-md pr-2">SEE MORE</h3>
@@ -210,7 +228,7 @@ function About() {
             </div>
             <div className="flex justify-center">
               <button className="mt-16 btn btn-neutral bg-black text-white">
-                <h3 className="text-md pr-2">SEE MY FULL CV</h3>
+                <h3 className="text-md pr-2">SEE MY CV</h3>
                 <svg
                   width="30px"
                   height="30px"
