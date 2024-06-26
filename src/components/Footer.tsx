@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div id="contact">
-      <div className="py-24 bg-black text-white w-full">
+      <div className="px-10 xl:px-0 py-24 bg-black text-white w-full">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex-col w-2/5 font-light">
             <h1 className="text-6xl">Let's work together!</h1>

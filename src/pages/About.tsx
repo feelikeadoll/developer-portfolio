@@ -8,11 +8,14 @@ import Personal from "../assets/work-personal-1.png";
 function About() {
   return (
     <div className="w-full">
-      <section id="about-intro" className="w-full bg-black text-white h-screen">
+      <section
+        id="about-intro"
+        className="w-full px-10 xl:px-0 bg-black text-white h-screen"
+      >
         <div className="z-50">
           <div className="max-w-7xl pt-28 h-full flex flex-col items-start justify-center mx-auto ">
-            <div className="w-2/3 pt-20 mb-4">
-              <h2 className="text-2xl">ABOUT</h2>
+            <div className="w-2/3 pt-20 mb-4 ">
+              <h2 className="text-7xl font-bold">ABOUT</h2>
               <p className="text-md">
                 My name is Laia and I am a Full Stack Developer from Barcelona,
                 even though I am currently located in Zamora.
@@ -42,7 +45,10 @@ function About() {
           </div>
         </div>
       </section>
-      <section id="work" className="w-full bg-lightgrey text-black h-screen">
+      <section
+        id="work"
+        className="w-full px-10 xl:px-0 bg-lightgrey text-black h-screen"
+      >
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex-col">
             <h2 className="pt-20">WORK</h2>
@@ -163,7 +169,10 @@ function About() {
           </div>
         </div>
       </section>
-      <section id="resume" className="w-full bg-midgrey text-black h-screen">
+      <section
+        id="resume"
+        className="w-full px-10 xl:px-0 bg-midgrey text-black h-screen"
+      >
         {" "}
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex-col w-full">
