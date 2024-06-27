@@ -52,14 +52,14 @@ function About() {
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex-col">
             <h2 className="pt-20">WORK</h2>
-            <div className="flex items-center">
+            <div className="flex flex-col md:flex-row items-center">
               <div className="flex flex-col items-center">
                 <h3 className="text-4xl my-4">Commercial</h3>
                 <Link to="/work/commercial" className="w-10/12">
                   <img src={Commercial} alt="" />
                 </Link>{" "}
                 <Link to="/work/commercial">
-                  <button className="my-10 btn btn-neutral bg-black text-white">
+                  <button className="mt-8 mb-10 md:my-10 btn btn-neutral bg-black text-white">
                     <h3 className="text-md pr-2">SEE MORE</h3>
                     <svg
                       width="30px"
@@ -115,7 +115,7 @@ function About() {
                   <img src={Personal} alt="" />
                 </Link>
                 <Link to="/work/personal">
-                  <button className="my-10 btn btn-neutral bg-black text-white">
+                  <button className="mt-8 mb-20 md:my-10 btn btn-neutral bg-black text-white">
                     <h3 className="text-md pr-2">SEE MORE</h3>
                     <svg
                       width="30px"
@@ -171,14 +171,13 @@ function About() {
       </section>
       <section
         id="resume"
-        className="w-full px-10 xl:px-0 bg-midgrey text-black h-full lg:h-screen"
+        className="w-full px-10 xl:px-0 bg-midgrey text-black h-full xl:h-screen"
       >
-        {" "}
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex-col w-full">
             <h2 className="pt-20">RESUME</h2>
-            <div className="w-full flex justify-center">
-              <div className="w-5/12 px-6">
+            <div className="w-full flex flex-col lg:flex-row justify-center items-center">
+              <div className="w-full md:w-4/5 lg:w-5/12 px-8">
                 <h3 className="text-4xl mt-8 mb-4">Education</h3>
                 <div className="w-11/12 mx-8">
                   <h5 className="text-xl mt-8">Web Development Bootcamp</h5>
@@ -197,7 +196,7 @@ function About() {
                   </p>
                 </div>
               </div>
-              <div className="w-5/12 px-16 ">
+              <div className="w-full md:w-4/5 lg:w-5/12 px-8 pt-4 lg:pt-0 lg:px-16 ">
                 <h3 className="text-4xl mt-8 mb-4">Experience</h3>
                 <div className="w-11/12 mx-8">
                   <h5 className="text-xl mt-8">Fashion E-Commerce Founder</h5>
@@ -236,7 +235,7 @@ function About() {
               </div>
             </div>
             <div className="flex justify-center">
-              <button className="mt-16 btn btn-neutral bg-black text-white">
+              <button className="mt-16 mb-20 md:mb-0 btn btn-neutral bg-black text-white">
                 <h3 className="text-md pr-2">SEE MY CV</h3>
                 <svg
                   width="30px"
