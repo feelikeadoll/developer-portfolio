@@ -8,7 +8,7 @@ function Home() {
     <div className="w-full">
       <section
         id="intro"
-        className="w-full bg-black md:bg-introPic md:bg-no-repeat md:bg-right-top lg:bg-40% bg-50% text-white h-screen"
+        className="w-full bg-black md:bg-introPic md:bg-no-repeat md:bg-right-top lg:bg-40% bg-50% text-white h-full lg:n"
       >
         <div className="z-50">
           <div className="max-w-7xl pt-28 h-full flex flex-col items-start justify-center mx-auto ">
@@ -66,7 +66,7 @@ function Home() {
       </section>
       <section
         id="quality"
-        className="w-full px-10 xl:px-8 2xl:px-6 bg-lightgrey text-black h-screen"
+        className="w-full px-10 xl:px-8 2xl:px-6 bg-lightgrey text-black h-full lg:h-screen"
       >
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex-col">
@@ -135,7 +135,7 @@ function Home() {
       </section>
       <section
         id="commercial"
-        className="w-full px-10 xl:px-8 2xl:px-6 bg-midgrey text-black h-screen"
+        className="w-full px-10 xl:px-8 2xl:px-6 bg-midgrey text-black h-full lg:h-screen"
       >
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex flex-col justify-between h-screen">
@@ -153,7 +153,7 @@ function Home() {
       </section>
       <section
         id="personal"
-        className="w-full px-10 xl:px-8 2xl:px-6 bg-black text-white h-screen"
+        className="w-full px-10 xl:px-8 2xl:px-6 bg-black text-white h-full lg:h-screen"
       >
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <h1 className="text-7xl pt-16">Personal projects</h1>

@@ -10,7 +10,7 @@ function About() {
     <div className="w-full">
       <section
         id="about-intro"
-        className="w-full px-10 xl:px-0 bg-black text-white h-screen"
+        className="w-full px-10 xl:px-0 bg-black text-white h-full lg:h-screen"
       >
         <div className="z-50">
           <div className="max-w-7xl pt-28 h-full flex flex-col items-start justify-center mx-auto ">
@@ -47,7 +47,7 @@ function About() {
       </section>
       <section
         id="work"
-        className="w-full px-10 xl:px-0 bg-lightgrey text-black h-screen"
+        className="w-full px-10 xl:px-0 bg-lightgrey text-black h-full lg:h-screen"
       >
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex-col">
@@ -171,7 +171,7 @@ function About() {
       </section>
       <section
         id="resume"
-        className="w-full px-10 xl:px-0 bg-midgrey text-black h-screen"
+        className="w-full px-10 xl:px-0 bg-midgrey text-black h-full lg:h-screen"
       >
         {" "}
         <div className="max-w-7xl mx-auto flex justify-between items-center">
