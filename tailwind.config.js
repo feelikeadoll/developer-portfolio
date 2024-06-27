@@ -35,6 +35,10 @@ export default {
       backgroundImage: {
         introPic: "url('./src/assets/intro-pic.jpg')",
       },
+      boxShadow: {
+        around:
+          "0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1)",
+      },
     },
   },
   plugins: [require("daisyui")],
