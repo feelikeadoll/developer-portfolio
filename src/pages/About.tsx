@@ -10,28 +10,28 @@ function About() {
     <div className="w-full">
       <section
         id="about-intro"
-        className="w-full px-10 xl:px-0 bg-black text-white h-full lg:h-screen"
+        className="w-full bg-black text-white h-full lg:h-screen"
       >
         <div className="z-50">
-          <div className="max-w-7xl pt-28 h-full flex flex-col items-start justify-center mx-auto ">
-            <div className="w-2/3 pt-20 mb-4 ">
+          <div className="max-w-7xl pt-28 h-full flex flex-col items-start justify-center mx-auto">
+            <div className="w-full lg:w-3/5 pt-20 mb-4 px-10 xl:px-8 2xl:px-6">
               <h2 className="text-7xl font-bold">ABOUT</h2>
-              <p className="text-md">
+              <p className="text-md py-4">
                 My name is Laia and I am a Full Stack Developer from Barcelona,
-                even though I am currently located in Zamora.
+                even though I am located in Zamora.
               </p>
 
-              <p className="text-md">
+              <p className="text-md py-4">
                 After years of experience in the fashion industry, I decided to
                 make a 180 degree turn and dive further into Web Development.
               </p>
-              <p className="text-md">
+              <p className="text-md py-4">
                 My journey in IT started with Harvard’s CS50 Introduction to
                 Computer Science, it was just the first step into freeing myself
                 from the limiting beliefs that kept me from growing and
                 evolving.
               </p>
-              <p className="text-md">
+              <p className="text-md py-4">
                 Are you on LinkedIn?{" "}
                 <a
                   href="https://www.linkedin.com/in/laianavalonarxe/"
@@ -47,9 +47,9 @@ function About() {
       </section>
       <section
         id="work"
-        className="w-full px-10 xl:px-0 bg-lightgrey text-black h-full lg:h-screen"
+        className="w-full mx-auto px-10 xl:px-8 2xl:px-6 bg-lightgrey text-black h-full lg:h-screen"
       >
-        <div className="max-w-7xl mx-auto flex justify-between items-center">
+        <div className="max-w-7xl flex justify-between items-center">
           <div className="flex-col">
             <h2 className="pt-20">WORK</h2>
             <div className="flex flex-col md:flex-row items-center">
@@ -171,7 +171,7 @@ function About() {
       </section>
       <section
         id="resume"
-        className="w-full px-10 xl:px-0 bg-midgrey text-black h-full xl:h-screen"
+        className="w-full px-10 xl:px-8 2xl:px-6 bg-midgrey text-black h-full xl:h-screen"
       >
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex-col w-full">
