@@ -13,7 +13,7 @@ function Navbar(props: NavbarProps) {
     <div className={props.displayNavbar}>
       <div className="w-full h-20 md:h-32 left-0 py-4 bg-lightgrey absolute z-50 px-10 xl:px-8 2xl:px-6">
         <div className="max-w-7xl mx-auto flex justify-between items-start md:items-center">
-          <div className="hidden md:flex items-center w-full lg:w-3/4 xl:w-1/2 text-black">
+          <div className="hidden md:flex items-center w-full 2xl:w-1/2 text-black">
             <NavLink to="/" className="text-lg font-bold flex items-center">
               <img
                 src={LNlogo}
@@ -24,14 +24,14 @@ function Navbar(props: NavbarProps) {
             </NavLink>
             <NavLink
               to="/about"
-              className="hover:font-medium md:ml-20 xl:ml-28 2xl:ml-32"
+              className="hover:font-medium md:ml-20 xl:ml-32"
             >
               ABOUT
             </NavLink>
             <HashLink
               to="#contact"
               smooth
-              className="hover:font-medium md:ml-28 xl:ml-32 2xl:ml-36"
+              className="hover:font-medium md:ml-28 xl:ml-36"
             >
               CONTACT
             </HashLink>
