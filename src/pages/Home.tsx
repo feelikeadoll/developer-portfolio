@@ -8,22 +8,22 @@ function Home() {
     <div className="w-full">
       <section
         id="intro"
-        className="w-full bg-black md:bg-introPic md:bg-no-repeat md:bg-right-top md:bg-40% text-white h-screen"
+        className="w-full bg-black md:bg-introPic md:bg-no-repeat md:bg-right-top lg:bg-40% bg-50% text-white h-screen"
       >
         <div className="z-50">
           <div className="max-w-7xl pt-28 h-full flex flex-col items-start justify-center mx-auto ">
-            <div className="w-full lg:w-2/3 pt-20 mb-4 px-10 xl:px-0">
+            <div className="w-full lg:w-2/3 pt-20 mb-4 px-10 xl:px-8 2xl:px-6">
               <h2 className="text-2xl -mb-4 lg:-mb-6 xl:-mb-10">PORTFOLIO</h2>
-              <h1 className="text-8xl lg:text-8.5xl xl:text-9xl font-bold">
+              <h1 className="text-7.5xl sm:text-8xl lg:text-8.5xl xl:text-9xl font-bold">
                 WEB DEV.
               </h1>
             </div>
           </div>
           <div className="w-full">
             <hr className="border mb-4" />
-            <div className="max-w-7xl h-full flex flex-col items-start justify-center mx-auto ">
+            <div className="max-w-7xl h-full flex flex-col items-start justify-center mx-auto px-10 xl:px-8 2xl:px-6">
               <Link to="/work">
-                <button className="btn btn-neutral bg-black border-0 text-white px-10 xl:px-0">
+                <button className="btn btn-neutral bg-black border-0 text-white">
                   <h3 className="text-md pr-2">SEE MY WORKS</h3>
                   <svg
                     fill="#000000"
@@ -58,7 +58,7 @@ function Home() {
             </div>
             <hr className="border mt-4" />
           </div>
-          <div className="px-10 xl:px-0 pt-16 max-w-7xl h-full flex flex-col items-start justify-center mx-auto ">
+          <div className="px-10 xl:px-8 2xl:px-6 pt-16 max-w-7xl h-full flex flex-col items-start justify-center mx-auto ">
             <h3 className="text-md">HI, MY NAME IS LAIA!</h3>
             <p className="text-3xl">I am a Fullstack Developer</p>
           </div>
@@ -66,7 +66,7 @@ function Home() {
       </section>
       <section
         id="quality"
-        className="w-full px-10 xl:px-0 bg-lightgrey text-black h-screen"
+        className="w-full px-10 xl:px-8 2xl:px-6 bg-lightgrey text-black h-screen"
       >
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex-col">
@@ -135,7 +135,7 @@ function Home() {
       </section>
       <section
         id="commercial"
-        className="w-full px-10 xl:px-0 bg-midgrey text-black h-screen"
+        className="w-full px-10 xl:px-8 2xl:px-6 bg-midgrey text-black h-screen"
       >
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex flex-col justify-between h-screen">
@@ -153,7 +153,7 @@ function Home() {
       </section>
       <section
         id="personal"
-        className="w-full px-10 xl:px-0 bg-black text-white h-screen"
+        className="w-full px-10 xl:px-8 2xl:px-6 bg-black text-white h-screen"
       >
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <h1 className="text-7xl pt-16">Personal projects</h1>

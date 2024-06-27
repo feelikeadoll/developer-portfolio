@@ -17,7 +17,7 @@ function Header() {
   };
 
   return (
-    <div className="absolute w-full z-40 px-10 xl:px-0">
+    <div className="absolute w-full z-40 px-10 xl:px-8 2xl:px-6">
       <Navbar displayNavbar={displayNavbar} closeNavbar={closeNavbar} />
       <div className="py-4 max-w-7xl mx-auto flex justify-between items-center">
         <div className="flex items-center w-full lg:w-3/4 xl:w-1/2 text-white">
@@ -31,14 +31,14 @@ function Header() {
           </NavLink>
           <NavLink
             to="/about"
-            className="hidden md:block hover:font-medium ml-20 xl:ml-32"
+            className="hidden md:block hover:font-medium ml-20 xl:ml-28 2xl:ml-32"
           >
             ABOUT
           </NavLink>
           <HashLink
             to="#contact"
             smooth
-            className="hidden md:block hover:font-medium ml-24 xl:ml-36"
+            className="hidden md:block hover:font-medium ml-24 xl:ml-32 2xl:ml-36"
           >
             CONTACT
           </HashLink>
