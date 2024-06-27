@@ -8,7 +8,7 @@ function Home() {
     <div className="w-full">
       <section
         id="intro"
-        className="w-full bg-black md:bg-introPic md:bg-no-repeat md:bg-right-top lg:bg-40% bg-50% text-white h-full lg:n"
+        className="w-full bg-black md:bg-introPic md:bg-no-repeat md:bg-right-top lg:bg-40% bg-50% text-white h-full lg:h-screen"
       >
         <div className="z-50">
           <div className="max-w-7xl pt-28 h-full flex flex-col items-start justify-center mx-auto ">
