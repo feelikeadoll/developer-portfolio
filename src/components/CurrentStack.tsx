@@ -15,24 +15,59 @@ import Jasmine from "../assets/stack/jasmine-black.png";
 
 function CurrentStack() {
   return (
-    <section id="stack" className="w-full bg-white text-black h-screen">
+    <section
+      id="stack"
+      className="w-full bg-white text-black h-full lg:h-screen"
+    >
       <div className="max-w-7xl mx-auto flex flex-col justify-between items-center h-screen">
         <h1 className="pt-20 text-4xl font-normal">Current stack</h1>
-        <div className="flex flex-wrap w-3/4 justify-center">
-          <img src={Javascript} alt="" className="h-24 m-6" />
-          <img src={Typescript} alt="" className="h-24 m-6" />
-          <img src={React} alt="" className="h-24 m-6" />
-          <img src={Html} alt="" className="h-24 m-6" />
-          <img src={Css} alt="" className="h-24 m-6" />
-          <img src={Node} alt="" className="h-24 m-6" />
-          <img src={Express} alt="" className="h-24 m-6" />
-          <img src={Github} alt="" className="h-24 m-6" />
-          <img src={RestAPI} alt="" className="h-24 m-6" />
-          <img src={Mongo} alt="" className="h-24 m-6" />
-          <img src={Sql} alt="" className="h-24 m-6" />
-          <img src={Shopify} alt="" className="h-24 m-6" />
-          <img src={Python} alt="" className="h-24 m-6" />
-          <img src={Jasmine} alt="" className="h-24 m-6" />
+        <div className="flex flex-wrap w-5/6 md:w-4/5 lg:w-3/4 justify-center">
+          <img
+            src={Javascript}
+            alt=""
+            className="h-16 sm:h-20 lg:h-24 m-4 lg:m-6"
+          />
+          <img
+            src={Typescript}
+            alt=""
+            className="h-16 sm:h-20 lg:h-24 m-4 lg:m-6"
+          />
+          <img src={React} alt="" className="h-16 sm:h-20 lg:h-24 m-4 lg:m-6" />
+          <img src={Html} alt="" className="h-16 sm:h-20 lg:h-24 m-4 lg:m-6" />
+          <img src={Css} alt="" className="h-16 sm:h-20 lg:h-24 m-4 lg:m-6" />
+          <img src={Node} alt="" className="h-16 sm:h-20 lg:h-24 m-4 lg:m-6" />
+          <img
+            src={Express}
+            alt=""
+            className="h-16 sm:h-20 lg:h-24 m-4 lg:m-6"
+          />
+          <img
+            src={Github}
+            alt=""
+            className="h-16 sm:h-20 lg:h-24 m-4 lg:m-6"
+          />
+          <img
+            src={RestAPI}
+            alt=""
+            className="h-16 sm:h-20 lg:h-24 m-4 lg:m-6"
+          />
+          <img src={Mongo} alt="" className="h-16 sm:h-20 lg:h-24 m-4 lg:m-6" />
+          <img src={Sql} alt="" className="h-16 sm:h-20 lg:h-24 m-4 lg:m-6" />
+          <img
+            src={Shopify}
+            alt=""
+            className="h-16 sm:h-20 lg:h-24 m-4 lg:m-6"
+          />
+          <img
+            src={Python}
+            alt=""
+            className="h-16 sm:h-20 lg:h-24 m-4 lg:m-6"
+          />
+          <img
+            src={Jasmine}
+            alt=""
+            className="h-16 sm:h-20 lg:h-24 m-4 lg:m-6"
+          />
         </div>
         <h5 className="pb-20">BUT LEARNING NEVER STOPS!</h5>
       </div>
