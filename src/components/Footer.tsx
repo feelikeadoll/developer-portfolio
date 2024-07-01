@@ -165,7 +165,7 @@ function Footer() {
               </a>
             </div>
           </div>
-          <div className="border-2 border-white w-1/2 min-h-96">
+          <div className="w-1/2 min-h-96">
             <ContactForm />
           </div>
         </div>

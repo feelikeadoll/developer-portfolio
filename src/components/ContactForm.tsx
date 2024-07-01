@@ -3,13 +3,15 @@ import { useState, ChangeEvent, FormEvent } from "react";
 interface FormData {
   name: string;
   email: string;
-  message: "";
+  subject: string;
+  message: string;
 }
 
 function ContactForm() {
   const [formData, setFormData] = useState<FormData>({
     name: "",
     email: "",
+    subject: "",
     message: "",
   });
 
@@ -27,39 +29,66 @@ function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label>
-        Name:
-        <input
-          required
-          type="text"
-          name="name"
-          value={formData.name}
-          onChange={handleInputChange}
-        />
-      </label>
-      <br />
-      <label>
-        Email:
-        <input
-          type="text"
-          name="email"
-          value={formData.email}
-          onChange={handleInputChange}
-        />
-      </label>
-      <br />
-      <label>
-        Message:
-        <textarea
-          name="message"
-          value={formData.message}
-          onChange={handleTextAreaChange}
-        />
-      </label>
-      <br />
-      <button type="submit">Submit</button>
-    </form>
+    <div className="flex flex-col">
+      <h3>Tell me, how can I help you?</h3>
+      <form
+        onSubmit={handleSubmit}
+        className="mt-8 text-black flex flex-col text-xs"
+      >
+        <label className="input input-bordered flex items-center gap-2">
+          Name
+          <input
+            required
+            type="text"
+            name="name"
+            value={formData.name}
+            onChange={handleInputChange}
+            className="grow text-darkgrey px-2"
+          />
+        </label>
+        <br />
+        <label className="input input-bordered flex items-center gap-2">
+          Email
+          <input
+            type="text"
+            name="email"
+            value={formData.email}
+            onChange={handleInputChange}
+            className="grow text-darkgrey px-2"
+          />
+        </label>
+        <br />
+        <label className="input input-bordered flex items-center gap-2">
+          Subject
+          <input
+            type="text"
+            name="subject"
+            value={formData.subject}
+            onChange={handleInputChange}
+            className="grow text-darkgrey px-2"
+          />
+        </label>
+        <br />
+        <label className="textarea textarea-bordered flex items-start gap-2 textarea-md text-base">
+          Message
+          <textarea
+            name="message"
+            value={formData.message}
+            onChange={handleTextAreaChange}
+            className="textarea h-28 px-2 py-0 grow text-darkgrey text-base"
+          />
+        </label>
+        <br />
+        <div className="flex justify-center">
+          <button
+            type="submit"
+            className="btn btn-wide btn-neutral bg-pink hover:bg-hover-pink border-0 text-white"
+          >
+            SEND
+          </button>
+        </div>
+      </form>
+    </div>
   );
 }
 

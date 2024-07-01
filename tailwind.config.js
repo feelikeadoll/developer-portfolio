@@ -31,6 +31,9 @@ export default {
       colors: {
         lightgrey: "#f6f6f6",
         midgrey: "#D8D7D6",
+        darkgrey: "#868383",
+        pink: "#F089A3",
+        "hover-pink": "#DF7590",
       },
       backgroundImage: {
         introPic: "url('./src/assets/intro-pic.jpg')",
