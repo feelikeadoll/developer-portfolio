@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import ContactForm from "./ContactForm";
 
 function Footer() {
   return (
@@ -165,7 +166,7 @@ function Footer() {
             </div>
           </div>
           <div className="border-2 border-white w-1/2 min-h-96">
-            <h1>Contact form</h1>
+            <ContactForm />
           </div>
         </div>
       </div>
