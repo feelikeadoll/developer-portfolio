@@ -35,7 +35,7 @@ function ContactForm() {
         onSubmit={handleSubmit}
         className="mt-8 text-black flex flex-col text-xs"
       >
-        <label className="input input-bordered flex items-center gap-2">
+        <label className="input input-bordered flex items-center gap-2 my-2">
           Name
           <input
             required
@@ -46,10 +46,10 @@ function ContactForm() {
             className="grow text-darkgrey px-2"
           />
         </label>
-        <br />
-        <label className="input input-bordered flex items-center gap-2">
+        <label className="input input-bordered flex items-center gap-2 my-2">
           Email
           <input
+            required
             type="text"
             name="email"
             value={formData.email}
@@ -57,8 +57,7 @@ function ContactForm() {
             className="grow text-darkgrey px-2"
           />
         </label>
-        <br />
-        <label className="input input-bordered flex items-center gap-2">
+        <label className="input input-bordered flex items-center gap-2 my-2">
           Subject
           <input
             type="text"
@@ -68,8 +67,7 @@ function ContactForm() {
             className="grow text-darkgrey px-2"
           />
         </label>
-        <br />
-        <label className="textarea textarea-bordered flex items-start gap-2 textarea-md text-base">
+        <label className="textarea textarea-bordered flex items-start gap-2 my-2 textarea-md text-base">
           Message
           <textarea
             name="message"
@@ -78,8 +76,7 @@ function ContactForm() {
             className="textarea h-28 px-2 py-0 grow text-darkgrey text-base"
           />
         </label>
-        <br />
-        <div className="flex justify-center">
+        <div className="flex justify-center my-2">
           <button
             type="submit"
             className="btn btn-wide btn-neutral bg-pink hover:bg-hover-pink border-0 text-white"
