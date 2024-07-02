@@ -1,4 +1,5 @@
-import { useState, ChangeEvent, FormEvent } from "react";
+import { useState, ChangeEvent, FormEvent, createRef } from "react";
+import emailjs from "@emailjs/browser";
 
 interface FormData {
   name: string;
@@ -8,6 +9,10 @@ interface FormData {
 }
 
 function ContactForm() {
+  const form = createRef<HTMLFormElement>();
+
+  const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
+
   const [formData, setFormData] = useState<FormData>({
     name: "",
     email: "",
@@ -24,15 +29,41 @@ function ContactForm() {
     setFormData({ ...formData, [name]: value });
   }
 
-  function handleSubmit(event: FormEvent<HTMLFormElement>): void {
-    event.preventDefault();
+  function sendEmail(e: FormEvent<HTMLFormElement>): void {
+    e.preventDefault();
+    e.stopPropagation();
+    setIsSubmitting(true);
+
+    emailjs
+      .sendForm(
+        import.meta.env.VITE_REACT_APP_SERVICE_ID!,
+        import.meta.env.VITE_REACT_APP_TEMPLATE_ID!,
+        e.currentTarget,
+        import.meta.env.VITE_REACT_APP_PUBLIC_KEY!
+      )
+      .then(
+        () => {
+          setIsSubmitting(false);
+
+          setFormData({
+            name: "",
+            email: "",
+            subject: "",
+            message: "",
+          });
+        },
+        () => {
+          setIsSubmitting(false);
+        }
+      );
   }
 
   return (
     <div className="flex flex-col">
       <h3>Tell me, how can I help you?</h3>
       <form
-        onSubmit={handleSubmit}
+        ref={form}
+        onSubmit={sendEmail}
         className="mt-8 text-black flex flex-col text-xs"
       >
         <label className="input input-bordered flex items-center gap-2 my-2">
@@ -77,12 +108,19 @@ function ContactForm() {
           />
         </label>
         <div className="flex justify-center my-2">
-          <button
-            type="submit"
-            className="btn btn-wide btn-neutral bg-pink hover:bg-hover-pink border-0 text-white"
-          >
-            SEND
-          </button>
+          {isSubmitting ? (
+            <button className="btn btn-wide btn-neutral bg-hover-pink hover:bg-hover-pink border-0 text-white">
+              SENDING
+            </button>
+          ) : (
+            <button
+              type="submit"
+              className="btn btn-wide btn-neutral bg-pink hover:bg-hover-pink border-0 text-white"
+            >
+              SEND
+            </button>
+          )}
+          {}
         </div>
       </form>
     </div>
