@@ -59,7 +59,7 @@ function ContactForm() {
   }
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col w-full">
       <h3>Tell me, how can I help you?</h3>
       <form
         ref={form}

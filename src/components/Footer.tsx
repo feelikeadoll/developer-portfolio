@@ -4,11 +4,14 @@ import ContactForm from "./ContactForm";
 function Footer() {
   return (
     <div id="contact">
-      <div className="px-10 xl:px-0 py-24 bg-black text-white w-full">
+      <div className="px-10 xl:px-0 py-16 lg:py-24 bg-black text-white w-full">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <div className="flex-col w-2/5 font-light">
+          <div className="flex-col w-full lg:w-2/5 font-light">
             <h1 className="text-6xl">Let's work together!</h1>
-            <div className="flex w-full justify-between py-16">
+            <div className="mt-6 lg:hidden w-full min-h-96">
+              <ContactForm />
+            </div>
+            <div className="flex w-full justify-between md:justify-around lg:justify-between py-16">
               <ul>
                 <Link to="/about">
                   <li className="py-2">ABOUT</li>
@@ -88,7 +91,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="flex items-center">
+            <div className="flex flex-row justify-start md:justify-center lg:justify-start">
               <a
                 href="https://www.linkedin.com/in/laianavalonarxe/"
                 target="_blank"
@@ -165,7 +168,7 @@ function Footer() {
               </a>
             </div>
           </div>
-          <div className="w-1/2 min-h-96">
+          <div className="hidden lg:block w-1/2 min-h-96">
             <ContactForm />
           </div>
         </div>
