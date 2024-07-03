@@ -10,8 +10,8 @@ function Home() {
         id="intro"
         className="w-full bg-black md:bg-introPic md:bg-no-repeat md:bg-right-top lg:bg-40% bg-50% text-white h-full lg:h-screen"
       >
-        <div className="z-50">
-          <div className="max-w-7xl pt-28 h-full flex flex-col items-start justify-center mx-auto ">
+        <div className="z-50 py-20 lg:pb-0 lg:pt-28">
+          <div className="max-w-7xl h-full flex flex-col items-start justify-center mx-auto ">
             <div className="w-full lg:w-2/3 pt-20 mb-4 px-10 xl:px-8 2xl:px-6">
               <h2 className="text-2xl -mb-4 lg:-mb-6 xl:-mb-10">PORTFOLIO</h2>
               <h1 className="text-7.5xl sm:text-8xl lg:text-8.5xl xl:text-9xl font-bold">
@@ -70,16 +70,16 @@ function Home() {
       >
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex-col">
-            <h2 className="pt-20">QUALITY DRIVEN</h2>
-            <div className="pt-10 flex items-center justify-evenly">
-              <img src={HuetopiaDevices} alt="" className="w-2/3" />
-              <div className="mb-24 w-1/4 flex flex-col items-center justify-between">
-                <p>
+            <h2 className="pt-16 xl:pt-20">QUALITY DRIVEN</h2>
+            <div className="pt-10 flex flex-col lg:flex-row items-center lg:justify-evenly">
+              <img src={HuetopiaDevices} alt="" className="w-full lg:w-2/3" />
+              <div className="mb-24 mt-8 lg:mt-0 w-3/4 lg:w-1/4 flex flex-col items-center justify-between">
+                <p className="text-center lg:text-left">
                   I specialise in creating innovative web-applications that work
                   from every device to provide the best user experience.
                 </p>
                 <Link to="/work">
-                  <button className="my-10 btn btn-neutral bg-black text-white">
+                  <button className="mt-10 lg:my-10 btn btn-neutral bg-black text-white">
                     <h3 className="text-md pr-2">SEE MY WORKS</h3>
                     <svg
                       width="30px"
@@ -139,7 +139,7 @@ function Home() {
       >
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex flex-col justify-between h-screen">
-            <h1 className="pt-20">WORK</h1>
+            <h1 className="pt-16 xl:pt-20">WORK</h1>
             <div className="w-full flex justify-between items-center my-20">
               <h2 className="text-7xl">Commercial</h2>
               <p className="w-2/5">

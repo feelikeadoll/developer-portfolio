@@ -47,11 +47,11 @@ function About() {
       </section>
       <section
         id="work"
-        className="w-full mx-auto px-10 xl:px-8 2xl:px-6 bg-lightgrey text-black h-full lg:h-screen"
+        className="w-full px-10 xl:px-8 2xl:px-6 bg-lightgrey text-black h-full lg:h-screen"
       >
-        <div className="max-w-7xl flex justify-between items-center">
+        <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex-col">
-            <h2 className="pt-20">WORK</h2>
+            <h2 className="pt-16 xl:pt-20">WORK</h2>
             <div className="flex flex-col md:flex-row items-center">
               <div className="flex flex-col items-center">
                 <h3 className="text-4xl my-4">Commercial</h3>
@@ -175,7 +175,7 @@ function About() {
       >
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex-col w-full">
-            <h2 className="pt-20">RESUME</h2>
+            <h2 className="pt-16 xl:pt-20">RESUME</h2>
             <div className="w-full flex flex-col lg:flex-row justify-center items-center">
               <div className="w-full md:w-4/5 lg:w-5/12 px-8">
                 <h3 className="text-4xl mt-8 mb-4">Education</h3>

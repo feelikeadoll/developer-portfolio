@@ -31,14 +31,14 @@ function Header() {
           </NavLink>
           <NavLink
             to="/about"
-            className="hidden md:block hover:font-medium ml-20 xl:ml-32"
+            className="hidden lg:block hover:font-medium ml-20 xl:ml-32"
           >
             ABOUT
           </NavLink>
           <HashLink
             to="#contact"
             smooth
-            className="hidden md:block hover:font-medium ml-24 xl:ml-36"
+            className="hidden lg:block hover:font-medium ml-24 xl:ml-36"
           >
             CONTACT
           </HashLink>
