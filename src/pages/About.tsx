@@ -10,10 +10,10 @@ function About() {
     <div className="w-full">
       <section
         id="about-intro"
-        className="w-full bg-black text-white h-full lg:h-screen"
+        className="w-full bg-black md:bg-aboutPic md:bg-no-repeat md:bg-right lg:bg-40% bg-50% text-white h-full lg:h-screen"
       >
         <div className="z-50">
-          <div className="max-w-7xl pt-28 h-full flex flex-col items-start justify-center mx-auto">
+          <div className="max-w-7xl pt-20 h-full flex flex-col items-start justify-center mx-auto">
             <div className="w-full lg:w-3/5 pt-20 mb-4 px-10 xl:px-8 2xl:px-6">
               <h2 className="text-7xl font-bold">ABOUT</h2>
               <p className="text-md py-4">
@@ -31,16 +31,14 @@ function About() {
                 from the limiting beliefs that kept me from growing and
                 evolving.
               </p>
-              <p className="text-md py-4">
-                Are you on LinkedIn?{" "}
-                <a
-                  href="https://www.linkedin.com/in/laianavalonarxe/"
-                  target="_blank"
-                  className="underline underline-0"
-                >
-                  Let's connect!
-                </a>
-              </p>
+              <p className="text-md pt-4 pb-8">Are you on LinkedIn?</p>
+              <a
+                href="https://www.linkedin.com/in/laianavalonarxe/"
+                target="_blank"
+                className="underline underline-0"
+              >
+                <button className="btn">Let's connect!</button>
+              </a>
             </div>
           </div>
         </div>

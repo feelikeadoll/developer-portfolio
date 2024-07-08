@@ -37,6 +37,7 @@ export default {
       },
       backgroundImage: {
         introPic: "url('./src/assets/intro-pic.jpg')",
+        aboutPic: "url('./src/assets/about-pic.jpg')",
       },
       boxShadow: {
         around:
