@@ -241,83 +241,6 @@ function About() {
         </div>
       </section>
       <section
-        id="offer"
-        className="w-full px-10 xl:px-8 2xl:px-6 bg-midgrey text-black h-full xl:h-screen"
-      >
-        <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <div className="flex-col w-full">
-            <h2 className="pt-16 xl:pt-20">WHAT I OFFER</h2>
-            <div className="w-full flex justify-end">
-              <ul className="flex-col w-7/12">
-                <li className="py-4">
-                  <h3 className="text-3xl">Passion for Technology</h3>
-                  <p className="py-2">
-                    My enthusiasm for tech drives me to continuously learn and
-                    stay updated with the latest trends and best practices
-                  </p>
-                </li>
-                <li className="py-4">
-                  <h3 className="text-3xl">Creative Problem-Solving</h3>
-                  <p className="py-2">
-                    With a designer's eye and a coder's mind, I approach
-                    challenges with creativity and analytical thinking
-                  </p>
-                </li>
-                <li className="py-4">
-                  <h3 className="text-3xl">Adaptability and Proactivity</h3>
-                  <p className="py-2">
-                    I thrive in dynamic environments and am always ready to
-                    tackle new challenges head-on
-                  </p>
-                </li>
-                <li>
-                  <button className="mt-10 mb-24 md:mb-0 btn btn-neutral bg-black text-white">
-                    <h3 className="text-md pr-2">SEE MY CV</h3>
-                    <svg
-                      width="30px"
-                      height="30px"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
-                      <g
-                        id="SVGRepo_tracerCarrier"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      ></g>
-                      <g id="SVGRepo_iconCarrier">
-                        <g clipPath="url(#clip0_429_11254)">
-                          <path
-                            d="M10 17L15 12"
-                            stroke="#ffffff"
-                            strokeWidth="2.5"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          ></path>
-                          <path
-                            d="M15 12L10 7"
-                            stroke="#ffffff"
-                            strokeWidth="2.5"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          ></path>
-                        </g>
-                        <defs>
-                          <clipPath id="clip0_429_11254">
-                            <rect width="24" height="24" fill="white"></rect>
-                          </clipPath>
-                        </defs>
-                      </g>
-                    </svg>
-                  </button>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* <section
         id="resume"
         className="w-full px-10 xl:px-8 2xl:px-6 bg-midgrey text-black h-full xl:h-screen"
       >
@@ -426,7 +349,7 @@ function About() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
       <CurrentStack />
     </div>
   );
