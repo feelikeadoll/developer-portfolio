@@ -1,8 +1,8 @@
-# Laia Navalón Arxé - Developer Portfolio
+# Laia Navalón - Developer Portfolio
 
-My own Fullstack Developer Portfolio. This web-app includes all the Commercial and Personal works I have done so far.
+My own Fullstack Developer Portfolio. This static web-app, built in React, includes all the Commercial and Personal works I have done so far.
 
-This project has served as an excuse to practice Typescript and implement it with React, and I have taken the chance to develop new tools and features I hadn't worked with in my coding journey so far.
+This project has served as an excuse to practice Typescript and implement it with React, and I have taken the chance to develop new tools and experiment with technologies I hadn't worked with in my coding journey so far.
 
 <!-- URLs examples
 
