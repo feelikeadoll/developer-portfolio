@@ -15,16 +15,16 @@ function Work() {
                 WORK
               </h1>
             </div>
-            <div className="w-full flex flex-col items-start lg:w-7/12 pt-16 mb-4 px-10 xl:px-8 2xl:px-6">
-              <p>Practice makes perfect, or so they say!</p>
+            <div className="w-full flex flex-col items-start lg:w-7/12 pt-20 mb-4 px-10 xl:px-8 2xl:px-6">
+              <p className="text-md">Practice makes perfect, or so they say!</p>
               <svg
                 fill="#000000"
-                width="64px"
-                height="64px"
+                width="40px"
+                height="40px"
                 viewBox="0 0 24 24"
                 id="down-arrow"
                 xmlns="http://www.w3.org/2000/svg"
-                className="my-2 -mx-4"
+                className="my-2 -mx-2"
                 stroke="#000000"
               >
                 <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
