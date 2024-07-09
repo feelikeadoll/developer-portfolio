@@ -14,7 +14,11 @@ function Navbar(props: NavbarProps) {
       <div className="w-full h-20 md:h-32 left-0 py-4 bg-lightgrey absolute z-50 px-10 xl:px-8 2xl:px-6">
         <div className="max-w-7xl mx-auto flex justify-between items-start md:items-center">
           <div className="hidden md:flex items-center w-full 2xl:w-1/2 text-black">
-            <NavLink to="/" className="text-lg font-bold flex items-center">
+            <NavLink
+              onClick={props.closeNavbar}
+              to="/"
+              className="text-lg font-bold flex items-center"
+            >
               <img
                 src={LNlogo}
                 alt="Laia Navalon Arxe Fullstack Web Developer"
@@ -23,12 +27,14 @@ function Navbar(props: NavbarProps) {
               LAIA NAVALON
             </NavLink>
             <NavLink
+              onClick={props.closeNavbar}
               to="/about"
               className="hover:font-medium md:ml-20 xl:ml-32"
             >
               ABOUT
             </NavLink>
             <HashLink
+              onClick={props.closeNavbar}
               to="#contact"
               smooth
               className="hover:font-medium md:ml-28 xl:ml-36"
@@ -37,7 +43,11 @@ function Navbar(props: NavbarProps) {
             </HashLink>
           </div>
           <div className="md:hidden w-full flex items-start justify-between py-2 text-black">
-            <NavLink to="/" className="text-lg font-bold flex items-center">
+            <NavLink
+              onClick={props.closeNavbar}
+              to="/"
+              className="text-lg font-bold flex items-center"
+            >
               <img
                 src={LNlogo}
                 alt="Laia Navalon Arxe Fullstack Web Developer"
@@ -186,47 +196,49 @@ function Navbar(props: NavbarProps) {
                 strokeLinejoin="round"
               ></g>
               <g id="SVGRepo_iconCarrier">
-                {" "}
                 <g clipPath="url(#clip0_429_10978)">
-                  {" "}
                   <path
                     d="M16.9999 7.00004L6.99994 17"
                     stroke="#000000"
                     strokeWidth="2.5"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                  ></path>{" "}
+                  ></path>
                   <path
                     d="M7.00006 7.00003L17.0001 17"
                     stroke="#000000"
                     strokeWidth="2.5"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                  ></path>{" "}
-                </g>{" "}
+                  ></path>
+                </g>
                 <defs>
-                  {" "}
                   <clipPath id="clip0_429_10978">
-                    {" "}
-                    <rect width="24" height="24" fill="white"></rect>{" "}
-                  </clipPath>{" "}
-                </defs>{" "}
+                    <rect width="24" height="24" fill="white"></rect>
+                  </clipPath>
+                </defs>
               </g>
             </svg>
           </button>
         </div>
         <div className="max-w-7xl h-8 py-1 mx-auto hidden md:block">
           <div className="text-black">
-            <NavLink to="/work" className="text-lg font-bold ml-36">
+            <NavLink
+              onClick={props.closeNavbar}
+              to="/work"
+              className="text-lg font-bold ml-36"
+            >
               WORK
             </NavLink>
             <NavLink
+              onClick={props.closeNavbar}
               to="/work/commercial"
               className="hover:font-medium md:ml-20 xl:ml-32"
             >
               COMMERCIAL
             </NavLink>
             <NavLink
+              onClick={props.closeNavbar}
               to="/work/personal"
               className="hover:font-medium md:ml-12 xl:ml-20"
             >
