@@ -39,10 +39,14 @@ export default {
       backgroundImage: {
         introPic: "url('./src/assets/intro-pic.jpg')",
         aboutPic: "url('./src/assets/about-pic.jpg')",
+        workPic: "url('./src/assets/work-pic.jpg')",
       },
       boxShadow: {
         around:
           "0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1)",
+      },
+      spacing: {
+        "85%": "82vh",
       },
     },
   },
