@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
 import HuetopiaDevices from "../assets/HuetopiaDevices.png";
-import CurrentStack from "../components/CurrentStack";
 
 function Home() {
   return (
@@ -13,10 +12,10 @@ function Home() {
         <div className="z-50 py-20 lg:pb-0 lg:pt-28">
           <div className="max-w-7xl h-full flex flex-col items-start justify-center mx-auto ">
             <div className="w-full lg:w-2/3 pt-20 mb-4 px-10 xl:px-8 2xl:px-6">
-              <h2 className="text-2xl -mb-4 lg:-mb-6 xl:-mb-10">PORTFOLIO</h2>
-              <h1 className="text-7.5xl sm:text-8xl lg:text-8.5xl xl:text-9xl font-bold">
+              <h1 className="text-2xl -mb-4 lg:-mb-6 xl:-mb-10">PORTFOLIO</h1>
+              <h2 className="text-7.5xl sm:text-8xl lg:text-8.5xl xl:text-9xl font-bold">
                 WEB DEV.
-              </h1>
+              </h2>
             </div>
           </div>
           <div className="w-full">
@@ -153,13 +152,12 @@ function Home() {
       </section>
       <section
         id="personal"
-        className="w-full px-10 xl:px-8 2xl:px-6 bg-black text-white h-full lg:h-screen"
+        className="w-full px-10 xl:px-8 2xl:px-6 bg-lightgrey text-black h-full lg:h-screen"
       >
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <h1 className="text-7xl pt-16">Personal projects</h1>
         </div>
       </section>
-      <CurrentStack />
     </div>
   );
 }
