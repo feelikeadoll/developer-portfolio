@@ -1,3 +1,4 @@
+import { HashLink } from "react-router-hash-link";
 import Button from "../components/Button";
 import CurrentStack from "../components/CurrentStack";
 
@@ -10,7 +11,7 @@ function About() {
         id="about-intro"
         className="w-full bg-black md:bg-aboutPic md:bg-no-repeat md:bg-right lg:bg-40% bg-50% text-white h-full lg:h-screen"
       >
-        <div className="z-50">
+        <div className="z-50 pb-20">
           <div className="max-w-7xl pt-12 h-full flex flex-col items-start justify-center mx-auto">
             <div className="w-full lg:w-7/12 pt-20 mb-4 px-10 xl:px-8 2xl:px-6">
               <h2 className="text-7xl font-bold">ABOUT</h2>
@@ -27,14 +28,19 @@ function About() {
                 with web technologies and user-centric design.
               </p>
               <p className="text-md py-4 pb-6">
-                If you're looking for a dedicated developer or want to connect,
-                feel free to reach out!
+                If you're looking for a dedicated developer or want to
+                connect...
               </p>
             </div>
           </div>
           <hr className="border mb-4" />
           <div className="max-w-7xl flex flex-col items-start justify-center mx-auto">
-            <div className="flex px-10 xl:px-8 2xl:px-6 pb-4">
+            <div className="flex items-center px-10 xl:px-4 2xl:px-2 pb-4">
+              <HashLink to="#contact">
+                <button className="text-md pr-4 btn btn-neutral font-normal bg-black border-0 text-white">
+                  Feel free to reach out!
+                </button>
+              </HashLink>
               <a
                 href="https://www.linkedin.com/in/laianavalonarxe/"
                 target="_blank"
@@ -121,6 +127,9 @@ function About() {
           </div>
           <hr className="border mb-4" />
         </div>
+      </section>
+      <section className="block md:hidden">
+        <div className="bg-aboutPic bg-no-repeat bg-right bg-full h-85%"></div>
       </section>
       <WorkSection />
       <section

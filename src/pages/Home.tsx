@@ -64,6 +64,9 @@ function Home() {
           </div>
         </div>
       </section>
+      <section className="block md:hidden">
+        <div className="bg-introPic bg-no-repeat bg-center bg-full h-85%"></div>
+      </section>
       <section
         id="quality"
         className="w-full px-10 xl:px-8 2xl:px-6 bg-lightgrey text-black h-full lg:h-screen"
