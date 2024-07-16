@@ -5,8 +5,8 @@ function Work() {
   return (
     <div className="w-full">
       <section
-        id="about-intro"
-        className="w-full bg-black md:bg-workPic md:bg-no-repeat md:bg-right-top lg:bg-40% bg-50% text-white h-85%"
+        id="work-intro"
+        className="w-full bg-black md:bg-workPic md:bg-no-repeat md:bg-right-top lg:bg-40% bg-50% text-white h-82%"
       >
         <div className="z-50 py-20 lg:pb-0 lg:pt-28">
           <div className="max-w-7xl h-full flex flex-col items-start justify-center mx-auto">
