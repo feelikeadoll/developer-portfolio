@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 
 import HuetopiaDevices from "../assets/HuetopiaDevices.png";
 import Button from "../components/Button";
+import RigthArrow from "../components/RightArrow";
 
 function Home() {
   return (
@@ -111,8 +112,42 @@ function Home() {
         id="personal"
         className="w-full px-10 xl:px-8 2xl:px-6 bg-lightgrey text-black h-full lg:h-screen"
       >
-        <div className="max-w-7xl mx-auto flex justify-between items-center">
+        <div className="max-w-7xl mx-auto flex flex-col justify-between items-start">
           <h1 className="text-7xl pt-16">Personal projects</h1>
+          <div className="flex py-12 px-4">
+            <div className="w-1/2 h-50% flex flex-col justify-between">
+              <p className="w-7/12">
+                I have always enjoyed creating for pleasure. Inspired by my
+                passion for Japan and color theory, each project highlights my
+                dedication to learning and the joy of bringing ideas to life
+                through code.
+              </p>
+              <div>
+                <button
+                  id="nippon-adv-btn"
+                  className="text-md flex items-center justify-between mt-2 pl-4 pr-2 bg-midgrey w-5/6 h-8"
+                >
+                  <p>Nippon Adventure</p>
+                  <RigthArrow size="18px" color="#000" />
+                </button>
+                <button
+                  id="huetopia-btn"
+                  className="text-md flex items-center justify-between mt-2 pl-4 pr-2 bg-midgrey w-5/6 h-8"
+                >
+                  <p>Huetopia</p>
+                  <RigthArrow size="18px" color="#000" />
+                </button>
+                <button
+                  id="mai-practice-btn"
+                  className="text-md flex items-center justify-between mt-2 pl-4 pr-2 bg-midgrey w-5/6 h-8"
+                >
+                  <p>Mai Practice</p>
+                  <RigthArrow size="18px" color="#000" />
+                </button>
+              </div>
+            </div>
+            <div className="w-2/3 border rounded-xl shadow-project"></div>
+          </div>
         </div>
       </section>
     </div>

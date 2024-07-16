@@ -23,6 +23,16 @@ export default {
       "8.5xl": "6.9rem",
       "9xl": "8rem",
     },
+    borderRadius: {
+      none: "0",
+      sm: "0.125rem",
+      DEFAULT: "0.25rem",
+      DEFAULT: "4px",
+      md: "0.375rem",
+      lg: "0.5rem",
+      xl: "1rem",
+      full: "9999px",
+    },
     extend: {
       fontFamily: {
         montserrat: ["Montserrat"],
@@ -44,6 +54,8 @@ export default {
       boxShadow: {
         around:
           "0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1)",
+        project:
+          "2px 2px 12px -1px rgb(0 0 0 / 0.1), 0 2px 10px 0 rgb(0 0 0 / 0.1)",
       },
       spacing: {
         "50%": "50vh",
