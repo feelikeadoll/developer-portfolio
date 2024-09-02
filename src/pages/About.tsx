@@ -162,7 +162,9 @@ function About() {
               <div className="w-full md:w-4/5 lg:w-5/12 px-8 pt-4 lg:pt-0 lg:px-16 ">
                 <h3 className="text-4xl mt-8 mb-4">Experience</h3>
                 <div className="w-11/12 mx-8">
-                  <h5 className="text-xl mt-8">Fashion E-Commerce Founder</h5>
+                  <h5 className="text-xl mt-8">Web Developer</h5>
+                  <p className="text-sm">2024-present, Freelance</p>
+                  <h5 className="text-xl mt-8">E-Commerce Founder</h5>
                   <p className="text-sm">
                     2019-2024,{" "}
                     <a
@@ -182,17 +184,6 @@ function About() {
                   </h5>
                   <p className="text-sm">
                     2020, Vudoir Hub S.L. | Spain and US brands
-                  </p>
-                  <h5 className="text-xl mt-8">Fashion Brand Founder</h5>
-                  <p className="text-sm">
-                    2016-2018,{" "}
-                    <a
-                      href="https://www.instagram.com/arxethelabel/"
-                      target="_blank"
-                      className="underline underline-0"
-                    >
-                      Arxé
-                    </a>
                   </p>
                 </div>
               </div>
