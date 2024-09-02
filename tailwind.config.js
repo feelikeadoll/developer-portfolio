@@ -2,6 +2,9 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    fontFamily: {
+      montserrat: ["Avenir Light", "sans-serif"],
+    },
     backgroundSize: {
       full: "100%",
       "50%": "50%",
