@@ -7,11 +7,7 @@ export default {
     fontFamily: {
       montserrat: ["Avenir Light", "sans-serif"],
     },
-    backgroundSize: {
-      full: "100%",
-      "50%": "50%",
-      "40%": "40%",
-    },
+
     fontSize: {
       sm: "0.8rem",
       md: "0.9rem",
@@ -28,17 +24,22 @@ export default {
       "8.5xl": "6.9rem",
       "9xl": "8rem",
     },
-    borderRadius: {
-      none: "0",
-      sm: "0.125rem",
-      DEFAULT: "0.25rem",
-      DEFAULT: "4px",
-      md: "0.375rem",
-      lg: "0.5rem",
-      xl: "1rem",
-      full: "9999px",
-    },
     extend: {
+      backgroundSize: {
+        full: "100%",
+        "50%": "50%",
+        "40%": "40%",
+      },
+      borderRadius: {
+        none: "0",
+        sm: "0.125rem",
+        DEFAULT: "0.25rem",
+        DEFAULT: "4px",
+        md: "0.375rem",
+        lg: "0.5rem",
+        xl: "1rem",
+        full: "9999px",
+      },
       fontFamily: {
         montserrat: ["Montserrat"],
         lato: ["Lato"],
@@ -52,9 +53,9 @@ export default {
         "hover-pink": "#DF7590",
       },
       backgroundImage: {
-        introPic: "url('./src/assets/intro-pic.jpg')",
-        aboutPic: "url('./src/assets/about-pic.jpg')",
-        workPic: "url('./src/assets/work-pic.jpg')",
+        introPic: "var(--intro-image-url)",
+        aboutPic: "var(--about-image-url)",
+        workPic: "var(--work-image-url)",
       },
       boxShadow: {
         around:

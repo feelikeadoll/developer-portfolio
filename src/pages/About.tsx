@@ -1,8 +1,9 @@
 import { HashLink } from "react-router-hash-link";
 import Button from "../components/Button";
 import CurrentStack from "../components/CurrentStack";
-
 import WorkSection from "../components/WorkSection";
+
+import aboutPicURL from '../assets/about-pic.jpg'
 
 function About() {
   return (
@@ -10,6 +11,7 @@ function About() {
       <section
         id="about-intro"
         className="w-full bg-black md:bg-aboutPic md:bg-no-repeat md:bg-right lg:bg-40% bg-50% text-white h-full lg:h-screen"
+        style={{ '--about-image-url': `url(${aboutPicURL})` }}
       >
         <div className="z-50 pb-20">
           <div className="max-w-7xl pt-12 h-full flex flex-col items-start justify-center mx-auto">

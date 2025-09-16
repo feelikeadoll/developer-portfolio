@@ -4,12 +4,15 @@ import HuetopiaDevices from "../assets/HuetopiaDevices.png";
 import Button from "../components/Button";
 import RigthArrow from "../components/RightArrow";
 
+import introPicURL from '../assets/intro-pic.jpg'
+
 function Home() {
   return (
     <div className="w-full">
       <section
         id="intro"
         className="w-full bg-black md:bg-introPic md:bg-no-repeat md:bg-right-top lg:bg-40% bg-50% text-white h-full lg:h-screen"
+        style={{ '--intro-image-url': `url(${introPicURL})` }}
       >
         <div className="z-50 py-20 lg:pb-0 lg:pt-28">
           <div className="max-w-7xl h-full flex flex-col items-start justify-center mx-auto ">

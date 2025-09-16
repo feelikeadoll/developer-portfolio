@@ -1,12 +1,17 @@
 import { HashLink } from "react-router-hash-link";
 import WorkSection from "../components/WorkSection";
 
+import workPicURL from '../assets/work-pic.jpg'
+
 function Work() {
+  console.log(workPicURL);
+
   return (
     <div className="w-full">
       <section
         id="work-intro"
         className="w-full bg-black md:bg-workPic md:bg-no-repeat md:bg-right-top lg:bg-40% bg-50% text-white h-82%"
+        style={{ '--work-image-url': `url(${workPicURL})` }}
       >
         <div className="z-50 py-20 lg:pb-0 lg:pt-28">
           <div className="max-w-7xl h-full flex flex-col items-start justify-center mx-auto">
