@@ -61,7 +61,7 @@ function Home() {
           </div>
           <div className="px-10 xl:px-8 2xl:px-6 pt-16 max-w-7xl h-full flex flex-col items-start justify-center mx-auto ">
             <h3 className="text-md">HI, MY NAME IS LAIA!</h3>
-            <p className="text-3xl">I am a Fullstack Developer</p>
+            <p className="text-3xl">I am a Frontend Developer</p>
           </div>
         </div>
       </section>

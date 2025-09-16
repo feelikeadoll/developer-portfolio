@@ -17,7 +17,7 @@ function About() {
               <h2 className="text-7xl font-bold">ABOUT</h2>
               <p className="text-md py-4">
                 My name is Laia, a Full Stack Developer with a unique background
-                in fashion design and e-commerce.
+                in design and e-commerce.
               </p>
               <p className="text-md py-4">
                 My journey into tech started with a curiosity to innovate and
@@ -28,8 +28,7 @@ function About() {
                 with web technologies and user-centric design.
               </p>
               <p className="text-md py-4 pb-6">
-                If you're looking for a dedicated developer or want to
-                connect...
+                If you're looking for a dedicated developer...
               </p>
             </div>
           </div>
@@ -38,7 +37,7 @@ function About() {
             <div className="flex items-center px-10 xl:px-4 2xl:px-2 pb-4">
               <HashLink to="#contact">
                 <button className="text-md pr-4 btn btn-neutral font-normal bg-black border-0 text-white">
-                  Feel free to reach out!
+                  Let's connect!
                 </button>
               </HashLink>
               <a
