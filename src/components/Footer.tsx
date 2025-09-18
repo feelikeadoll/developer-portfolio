@@ -173,8 +173,9 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="max-w-7xl mx-auto bg-white flex justify-center py-4 text-xs">
-        <p>© 2024, built by Laia Navalón Arxé</p>
+      <div className="max-w-7xl mx-auto bg-white flex flex-col items-center py-4 text-sm">
+        <p>© 2025, built by Laia Navalón Arxé.</p>
+        <p className="text-center">Technologies used: React, Typescript, TailwindCss. Deployed with Netlify.</p>
       </div>
     </div>
   );

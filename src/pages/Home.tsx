@@ -69,7 +69,9 @@ function Home() {
         </div>
       </section>
       <section className="block md:hidden">
-        <div className="bg-introPic bg-no-repeat bg-center bg-full h-85%"></div>
+        <div className="bg-introPic bg-no-repeat bg-center bg-full h-85%"
+          style={{ '--intro-image-url': `url(${introPicURL})` }}
+        ></div>
       </section>
       <section
         id="quality"

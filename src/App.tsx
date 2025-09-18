@@ -11,7 +11,7 @@ import BackToTopButton from "./components/BackToTopButton";
 
 function App() {
   return (
-    <div className="font-montserrat tracking-widest">
+    <div className="font-montserrat tracking-widest w-full">
       <Header />
 
       <Routes>
