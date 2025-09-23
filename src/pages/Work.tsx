@@ -14,15 +14,15 @@ function Work() {
         style={{ '--work-image-url': `url(${workPicURL})` }}
       >
         <div className="z-50 py-20 lg:pb-0 lg:pt-28">
-          <div className="max-w-7xl h-full flex flex-col items-start justify-center mx-auto">
+          <div className="xl:px-12 2xl:px-24 h-full flex flex-col items-start justify-center mx-auto">
             <div className="w-full lg:w-7/12 pt-20 mb-4 px-10 xl:px-8 2xl:px-6">
-              <h2 className="text-2xl -mb-4 lg:-mb-6 xl:-mb-10">EXPLORE MY</h2>
-              <h1 className="text-7.5xl sm:text-8xl lg:text-8.5xl xl:text-9xl font-bold">
+              <h2 className="text-xl md:text-2xl -mb-4 lg:-mb-6 xl:-mb-10">EXPLORE MY</h2>
+              <h1 className="text-7xl md:text-7.5xl sm:text-8xl lg:text-8.5xl xl:text-9xl font-bold">
                 WORK
               </h1>
             </div>
             <div className="w-full flex flex-col items-start lg:w-7/12 pt-20 mb-4 px-10 xl:px-8 2xl:px-6">
-              <p className="text-md">Practice makes perfect, or so they say!</p>
+              <p className="text-sm md:text-md">Practice makes perfect, or so they say!</p>
               <HashLink to="#work" smooth>
                 <button className="my-2 btn btn-neutral text-white bg-black border-0 btn-square">
                   <svg

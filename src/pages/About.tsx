@@ -4,6 +4,7 @@ import CurrentStack from "../components/CurrentStack";
 import WorkSection from "../components/WorkSection";
 
 import aboutPicURL from '../assets/about-pic.jpg'
+import ResumeSection from "../components/ResumeSection";
 
 function About() {
   return (
@@ -14,10 +15,10 @@ function About() {
         style={{ '--about-image-url': `url(${aboutPicURL})` }}
       >
         <div className="z-50 pb-20">
-          <div className="max-w-7xl pt-12 h-full flex flex-col items-start justify-center mx-auto">
+          <div className="xl:px-12 2xl:px-24 pt-12 h-full flex flex-col items-start justify-center mx-auto">
             <div className="w-full lg:w-7/12 pt-20 mb-4 px-10 xl:px-8 2xl:px-6">
-              <h2 className="text-7xl font-bold">ABOUT</h2>
-              <p className="text-md py-4">
+              <h2 className="text-6xl md:text-7xl font-bold">ABOUT</h2>
+              <p className="text-sm md:text-md py-4">
                 My name is Laia, a Full Stack Developer with a unique background
                 in design and e-commerce.
               </p>
@@ -35,7 +36,7 @@ function About() {
             </div>
           </div>
           <hr className="border mb-4" />
-          <div className="max-w-7xl flex flex-col items-start justify-center mx-auto">
+          <div className="xl:px-12 2xl:px-24 flex flex-col items-start justify-center mx-auto">
             <div className="flex items-center px-10 xl:px-4 2xl:px-2 pb-4">
               <HashLink to="#contact">
                 <button className="text-md pr-4 btn btn-neutral font-normal bg-black border-0 text-white">
@@ -130,63 +131,11 @@ function About() {
         </div>
       </section>
       <section className="block md:hidden">
-        <div className="bg-aboutPic bg-no-repeat bg-right bg-full h-65% sm:h-85%"
+        <div className="bg-aboutPic bg-no-repeat bg-right bg-full h-75% sm:h-85%"
           style={{ '--about-image-url': `url(${aboutPicURL})` }}></div>
       </section>
       <WorkSection />
-      <section
-        id="resume"
-        className="w-full px-10 xl:px-8 2xl:px-6 bg-midgrey text-black h-full xl:h-screen"
-      >
-        <div className="max-w-7xl mx-auto flex justify-between h-screen">
-          <div className="flex flex-col w-full justify-between">
-            <h2 className="pt-16 xl:pt-20">RESUME</h2>
-            <div className="w-full flex flex-col lg:flex-row justify-center items-center">
-              <div className="w-full md:w-4/5 lg:w-5/12 px-8 pt-4 lg:pt-0 lg:px-16 ">
-                <h3 className="text-4xl mt-8 mb-4">Experience</h3>
-                <div className="w-11/12 mx-8">
-                  <h5 className="text-xl mt-8">Junior Fullstack Developer</h5>
-                  <p className="text-sm">Radisson Hotel Group</p>
-                  <p className="text-sm">2024-present | Madrid, Spain</p>
-                  <h5 className="text-xl mt-8">Embroidery Digitizer</h5>
-                  <p className="text-sm">Bordados Arxé</p>
-                  <p className="text-sm">2023-present | remote</p>
-                  <h5 className="text-xl mt-8">Wholesale Representative</h5>
-                  <p className="text-sm">FashionLab Agency</p>
-                  <p className="text-sm">
-                    2022-2023 | New York, US
-                  </p>
-                  <h5 className="text-xl mt-8">E-Commerce Founder</h5>
-                  <p className="text-sm">Some Things Never Fade</p>
-                  <p className="text-sm">2019-2024 | remote</p>
-                </div>
-              </div>
-              <div className="w-full md:w-4/5 lg:w-5/12 px-8">
-                <h3 className="text-4xl mt-8 mb-4">Education</h3>
-                <div className="w-11/12 mx-8">
-                  <h5 className="text-xl mt-8">Web Development Bootcamp</h5>
-                  <p className="text-sm">Ironhack</p>
-                  <p className="text-sm">2024 | remote</p>
-                  <h5 className="text-xl mt-8">
-                    Introduction to Computer Science
-                  </h5>
-                  <p className="text-sm">Harvard’s CS50</p>
-                  <p className="text-sm">2023  remote</p>
-                  <h5 className="text-xl mt-8">Image Consulting I and II</h5>
-                  <p className="text-sm">Fashion Institute of Technology</p>
-                  <p className="text-sm">2019 | New York, US</p>
-                  <h5 className="text-xl mt-8">Fashion Design</h5>
-                  <p className="text-sm">LCI Barcelona - FD Moda</p>
-                  <p className="text-sm">2010-2016 | Barcelona, Spain</p>
-                </div>
-              </div>
-            </div>
-            <div className="flex justify-center mt-16 mb-20 md:mb-0 pb-20">
-              <Button text="SEE MY CV" />
-            </div>
-          </div>
-        </div>
-      </section>
+      <ResumeSection />
       <CurrentStack />
     </div>
   );

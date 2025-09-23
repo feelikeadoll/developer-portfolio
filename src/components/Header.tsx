@@ -19,7 +19,7 @@ function Header() {
   return (
     <div className="absolute w-full z-40 px-10 xl:px-8 2xl:px-6">
       <Navbar displayNavbar={displayNavbar} closeNavbar={closeNavbar} />
-      <div className="py-4 max-w-7xl mx-auto flex justify-between items-center">
+      <div className="mx-auto xl:px-12 2xl:px-24 py-4 flex justify-between items-center">
         <div className="flex items-center w-full 2xl:w-1/2 text-white">
           <NavLink to="/" className="text-lg font-bold flex items-center">
             <img

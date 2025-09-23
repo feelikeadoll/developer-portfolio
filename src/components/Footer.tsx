@@ -5,9 +5,9 @@ function Footer() {
   return (
     <div id="contact">
       <div className="px-10 xl:px-0 py-16 lg:py-24 bg-black text-white w-full">
-        <div className="max-w-7xl mx-auto flex justify-between items-center">
+        <div className="xl:px-12 2xl:px-24 mx-auto flex justify-between items-center">
           <div className="flex-col w-full lg:w-2/5 font-light">
-            <h1 className="text-6xl">Let's work together!</h1>
+            <h1 className="text-5xl md:text-6xl">Let's work together!</h1>
             <div className="mt-6 lg:hidden w-full min-h-96">
               <ContactForm />
             </div>
@@ -173,7 +173,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="max-w-7xl mx-auto bg-white flex flex-col items-center py-4 text-sm">
+      <div className="xl:px-12 2xl:px-24 mx-auto bg-white flex flex-col items-center py-4 text-sm">
         <p>© 2025, built by Laia Navalón Arxé.</p>
         <p className="text-center">Technologies used: React, Typescript, TailwindCss. Deployed with Netlify.</p>
       </div>

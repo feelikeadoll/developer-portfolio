@@ -15,20 +15,20 @@ function Home() {
         style={{ '--intro-image-url': `url(${introPicURL})` }}
       >
         <div className="z-50 py-20 lg:pb-0 lg:pt-28">
-          <div className="max-w-7xl h-full flex flex-col items-start justify-center mx-auto ">
-            <div className="w-full lg:w-2/3 pt-20 mb-4 px-10 xl:px-8 2xl:px-6">
-              <h1 className="text-2xl -mb-4 lg:-mb-6 xl:-mb-10">PORTFOLIO</h1>
-              <h2 className="text-7.5xl sm:text-8xl lg:text-8.5xl xl:text-9xl font-bold">
+          <div className="xl:px-12 2xl:px-24 h-full flex flex-col items-start justify-center mx-auto">
+            <div className="w-full lg:w-2/3 pt-20 mb-4 px-10 xl:px-0">
+              <h1 className="text-xl md:text-2xl -mb-4 lg:-mb-6 xl:-mb-10">PORTFOLIO</h1>
+              <h2 className="text-7xl md:text-7.5xl sm:text-8xl lg:text-8.5xl xl:text-9xl font-bold">
                 WEB DEV.
               </h2>
             </div>
           </div>
           <div className="w-full">
             <hr className="border mb-4" />
-            <div className="max-w-7xl h-full flex flex-col items-start justify-center mx-auto px-10 xl:px-8 2xl:px-6">
+            <div className="h-full flex flex-col items-start justify-center mx-auto px-10 xl:px-12 2xl:px-24">
               <Link to="/work">
                 <button className="btn btn-neutral bg-black border-0 text-white">
-                  <h3 className="text-md pr-2">SEE MY WORKS</h3>
+                  <h3 className="text-sm md:text-md pr-2">SEE MY WORKS</h3>
                   <svg
                     fill="#000000"
                     width="40px"
@@ -62,14 +62,14 @@ function Home() {
             </div>
             <hr className="border mt-4" />
           </div>
-          <div className="px-10 xl:px-8 2xl:px-6 pt-16 max-w-7xl h-full flex flex-col items-start justify-center mx-auto ">
-            <h3 className="text-md">HI, MY NAME IS LAIA!</h3>
-            <p className="text-3xl">I am a Frontend Developer</p>
+          <div className="px-10 xl:px-12 2xl:px-24 pt-16 h-full flex flex-col items-start justify-center mx-auto ">
+            <h3 className="text-sm md:text-md">HI, MY NAME IS LAIA!</h3>
+            <p className="text-2xl md:text-3xl">I am a Frontend Developer</p>
           </div>
         </div>
       </section>
       <section className="block md:hidden">
-        <div className="bg-introPic bg-no-repeat bg-center bg-full h-65% sm:h-85%"
+        <div className="bg-introPic bg-no-repeat bg-center bg-full h-75% sm:h-85%"
           style={{ '--intro-image-url': `url(${introPicURL})` }}
         ></div>
       </section>
@@ -77,7 +77,7 @@ function Home() {
         id="quality"
         className="w-full px-10 xl:px-8 2xl:px-6 bg-lightgrey text-black h-full lg:h-screen"
       >
-        <div className="max-w-7xl mx-auto flex justify-between items-center">
+        <div className="px-2 mx-auto flex justify-between items-center">
           <div className="flex-col">
             <h2 className="pt-16 xl:pt-20">QUALITY DRIVEN</h2>
             <div className="pt-10 flex flex-col lg:flex-row items-center lg:justify-evenly">
@@ -99,11 +99,11 @@ function Home() {
         id="commercial"
         className="w-full px-10 xl:px-8 2xl:px-6 bg-midgrey text-black h-full lg:h-screen"
       >
-        <div className="max-w-7xl mx-auto flex justify-between items-center">
+        <div className="px-2 mx-auto flex justify-between items-center">
           <div className="flex flex-col justify-between h-screen">
             <h1 className="pt-16 xl:pt-20">WORK</h1>
             <div className="w-full flex justify-between items-center my-20">
-              <h2 className="text-7xl">Commercial</h2>
+              <h2 className="text-6xl md:text-7xl">Commercial</h2>
               <p className="w-2/5">
                 I created the portfolio for a creative photography studio based
                 in Barcelona that craft the most beautiful content for beauty +
@@ -117,8 +117,8 @@ function Home() {
         id="personal"
         className="w-full px-10 xl:px-8 2xl:px-6 bg-lightgrey text-black h-full lg:h-screen"
       >
-        <div className="max-w-7xl mx-auto flex flex-col justify-between items-start">
-          <h1 className="text-7xl pt-16">Personal projects</h1>
+        <div className="px-24 mx-auto flex flex-col justify-between items-start">
+          <h1 className="text-6xl md:text-7xl pt-16">Personal projects</h1>
           <div className="flex py-12 px-4">
             <div className="w-1/2 h-50% flex flex-col justify-between">
               <p className="w-7/12">

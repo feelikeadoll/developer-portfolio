@@ -20,7 +20,7 @@ function CurrentStack() {
       className="w-full bg-white text-black h-full lg:h-screen"
     >
       <div className="max-w-7xl mx-auto flex flex-col justify-between items-center h-screen">
-        <h1 className="pt-20 text-4xl font-normal">Current stack</h1>
+        <h1 className="pt-20 text-3xl md:text-4xl font-normal">Current stack</h1>
         <div className="flex flex-wrap w-5/6 md:w-4/5 lg:w-3/4 justify-center">
           <img
             src={Javascript}
