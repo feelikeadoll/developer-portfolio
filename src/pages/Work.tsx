@@ -59,6 +59,10 @@ function Work() {
           </div>
         </div>
       </section>
+      <section className="block md:hidden">
+        <div className="bg-workPic bg-no-repeat bg-right bg-full h-50% sm:h-85%"
+          style={{ '--work-image-url': `url(${workPicURL})` }}></div>
+      </section>
       <WorkSection />
     </div>
   );

@@ -130,7 +130,7 @@ function About() {
         </div>
       </section>
       <section className="block md:hidden">
-        <div className="bg-aboutPic bg-no-repeat bg-right bg-full h-85%"
+        <div className="bg-aboutPic bg-no-repeat bg-right bg-full h-65% sm:h-85%"
           style={{ '--about-image-url': `url(${aboutPicURL})` }}></div>
       </section>
       <WorkSection />

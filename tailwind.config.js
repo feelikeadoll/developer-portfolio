@@ -7,7 +7,6 @@ export default {
     fontFamily: {
       montserrat: ["Avenir Light", "sans-serif"],
     },
-
     fontSize: {
       sm: "0.8rem",
       md: "0.9rem",
@@ -66,6 +65,7 @@ export default {
       spacing: {
         "50%": "50vh",
         "65%": "65vh",
+        "75%": "75vh",
         "82%": "82vh",
         "85%": "85vh",
       },
