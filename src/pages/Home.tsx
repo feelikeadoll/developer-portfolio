@@ -14,7 +14,7 @@ function Home() {
         className="w-full bg-black md:bg-introPic md:bg-no-repeat md:bg-right-top lg:bg-40% bg-50% text-white h-full lg:h-screen"
         style={{ '--intro-image-url': `url(${introPicURL})` }}
       >
-        <div className="z-50 py-20 lg:pb-0 lg:pt-28">
+        <div className="z-50 pt-10 pb-20 md:py-20 lg:pb-0 lg:pt-28">
           <div className="xl:px-12 2xl:px-24 h-full flex flex-col items-start justify-center mx-auto">
             <div className="w-full lg:w-2/3 pt-20 mb-4 px-10 xl:px-0">
               <h1 className="text-xl md:text-2xl -mb-4 lg:-mb-6 xl:-mb-10">PORTFOLIO</h1>
@@ -88,10 +88,10 @@ function Home() {
             <h2 className="pt-16 xl:pt-20">QUALITY DRIVEN</h2>
             <div className="pt-10 flex flex-col lg:flex-row items-center lg:justify-evenly">
               <img src={HuetopiaDevices} alt="" className="w-full lg:w-2/3" />
-              <div className="mb-24 mt-8 lg:mt-0 w-3/4 lg:w-1/4 flex flex-col items-center justify-between">
-                <p className="text-center lg:text-left">
-                  I specialise in creating innovative web-applications that work
-                  from every device to provide the best user experience.
+              <div className="mb-24 mt-8 lg:mt-0 w-4/5 lg:w-1/4 flex flex-col items-center justify-between">
+                <p className="text-md md:text-base text-center lg:text-left">
+                  I specialise in creating innovative and intuitive web-applications,
+                  ensuring a seamless user experience across all devices.
                 </p>
                 <Link to="/work" className="mt-10 lg:my-10 ">
                   <Button text="SEE MY WORKS" />
