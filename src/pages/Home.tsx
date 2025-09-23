@@ -18,8 +18,14 @@ function Home() {
           <div className="xl:px-12 2xl:px-24 h-full flex flex-col items-start justify-center mx-auto">
             <div className="w-full lg:w-2/3 pt-20 mb-4 px-10 xl:px-0">
               <h1 className="text-xl md:text-2xl -mb-4 lg:-mb-6 xl:-mb-10">PORTFOLIO</h1>
-              <h2 className="text-7xl md:text-7.5xl sm:text-8xl lg:text-8.5xl xl:text-9xl font-bold">
+              <h2 className="hidden md:block text-8xl lg:text-8.5xl xl:text-9xl font-bold">
                 WEB DEV.
+              </h2>
+              <h2 className="block md:hidden text-8xl font-bold -mb-8">
+                WEB
+              </h2>
+              <h2 className="block md:hidden text-8xl font-bold -mt-8">
+                DEV.
               </h2>
             </div>
           </div>
@@ -64,7 +70,7 @@ function Home() {
           </div>
           <div className="px-10 xl:px-12 2xl:px-24 pt-16 h-full flex flex-col items-start justify-center mx-auto ">
             <h3 className="text-sm md:text-md">HI, MY NAME IS LAIA!</h3>
-            <p className="text-2xl md:text-3xl">I am a Frontend Developer</p>
+            <p className="text-xl md:text-2xl lg:text-3xl">I am a Frontend Developer</p>
           </div>
         </div>
       </section>
