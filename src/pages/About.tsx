@@ -1,5 +1,4 @@
 import { HashLink } from "react-router-hash-link";
-import Button from "../components/Button";
 import CurrentStack from "../components/CurrentStack";
 import WorkSection from "../components/WorkSection";
 
