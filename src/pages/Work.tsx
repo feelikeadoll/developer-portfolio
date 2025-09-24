@@ -12,7 +12,7 @@ function Work() {
         style={{ '--work-image-url': `url(${workPicURL})` }}
       >
         <div className="z-50 py-10 md:py-20 lg:pb-0 lg:pt-28">
-          <div className="xl:px-12 2xl:px-24 h-50% md:h-82% flex flex-col items-center md:items-start justify-center md:justify-evenly mx-auto">
+          <div className="xl:px-12 2xl:px-24 h-50% md:h-75% flex flex-col items-center md:items-start justify-center md:justify-evenly mx-auto">
             <div className="w-full lg:w-7/12 mb-4 px-10 xl:px-8 2xl:px-6">
               <h2 className="text-xl md:text-2xl -mb-4 lg:-mb-6 xl:-mb-10">EXPLORE MY</h2>
               <h1 className="text-7xl md:text-7.5xl sm:text-8xl lg:text-8.5xl xl:text-9xl font-bold">
