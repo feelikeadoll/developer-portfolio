@@ -21,7 +21,7 @@ function About() {
                 I'm a Frontend Developer who specializes in turning complex problems into beautiful
                 and intuitive digital experiences.
               </p>
-              <p className="text-md py-4">
+              <p className="text-sm md:text-md py-4">
                 My approach is simple: I believe the best web applications are the ones that feel effortless
                 to use. My background in design isn't just a part of my history; it's the foundation of how
                 I build, ensuring that every project is user-centric from start to finish. In my professional
@@ -31,7 +31,7 @@ function About() {
               <p className="text-sm md:text-md py-4">
                 I thrive on the challenge of bridging the gap between a great idea and a flawless final product.
               </p>
-              <p className="text-md py-4 pb-6">
+              <p className="text-sm md:text-md py-4 pb-6">
                 I'm excited to bring this energy to my next role as a dedicated Frontend Developer.
               </p>
             </div>
