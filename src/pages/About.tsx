@@ -39,9 +39,9 @@ function About() {
           <div className="w-full">
             <hr className="border mb-4" />
             <div className="xl:px-12 2xl:px-24 flex flex-col items-start justify-center mx-auto">
-              <div className="flex items-center px-10 xl:px-4 2xl:px-2 pb-4">
+              <div className="flex items-center px-6 xl:px-4 2xl:px-2 pb-4">
                 <HashLink to="#contact">
-                  <button className="text-md pr-4 btn btn-neutral  bg-black border-0 text-white">
+                  <button className="text-md md:pr-4 btn btn-neutral bg-black border-0 text-white">
                     <h3 className="text-sm md:text-md pr-2">LET'S CONNECT!</h3>
                   </button>
                 </HashLink>
