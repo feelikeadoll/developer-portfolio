@@ -11,9 +11,9 @@ function WorkSection() {
       className="w-full px-10 xl:px-8 2xl:px-6 bg-lightgrey text-black h-full xl:h-screen"
     >
       <div className="xl:px-12 2xl:px-24 mx-auto flex justify-between items-center md:h-82%">
-        <div className="flex flex-col w-full justify-between">
+        <div className="bflex flex-col w-full justify-between">
           <h2 className="pt-16 xl:pt-20">WORK</h2>
-          <div className="flex flex-col md:flex-row items-center">
+          <div className="flex flex-col md:flex-row items-center justify-evenly">
             <div className="flex flex-col items-center">
               <h3 className="text-3xl md:text-4xl my-4 xl:my-8 2xl:my-10">Commercial</h3>
               <Link to="/work/commercial" className="w-10/12">

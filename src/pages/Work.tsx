@@ -8,7 +8,7 @@ function Work() {
     <div className="w-full">
       <section
         id="work-intro"
-        className="w-full bg-black md:bg-workPic md:bg-no-repeat md:bg-right-top lg:bg-40% bg-50% text-white h-50% md:h-82%"
+        className="w-full bg-black md:bg-workPic md:bg-no-repeat md:bg-right-top lg:bg-40% bg-50% text-white h-45% md:h-50% lg:h-82% 2xl:h-75%"
         style={{ '--work-image-url': `url(${workPicURL})` }}
       >
         <div className="z-50 py-10 md:py-20 lg:pb-0 lg:pt-28">
