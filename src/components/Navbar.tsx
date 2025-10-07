@@ -12,7 +12,7 @@ function Navbar(props: NavbarProps) {
   return (
     <div className={props.displayNavbar}>
       <div className="w-full h-20 md:h-32 left-0 py-4 bg-lightgrey absolute z-50 px-10 xl:px-8 2xl:px-6">
-        <div className="px-24 mx-auto flex justify-between items-start md:items-center">
+        <div className="xl:px-12 2xl:px-24 mx-auto flex justify-between items-start md:items-center">
           <div className="hidden md:flex items-center w-full 2xl:w-1/2 text-black">
             <NavLink
               onClick={props.closeNavbar}
@@ -221,7 +221,7 @@ function Navbar(props: NavbarProps) {
             </svg>
           </button>
         </div>
-        <div className="px-24 h-8 py-1 mx-auto hidden md:block">
+        <div className="xl:px-12 2xl:px-24 h-8 py-1 mx-auto hidden md:block">
           <div className="text-black">
             <NavLink
               onClick={props.closeNavbar}
