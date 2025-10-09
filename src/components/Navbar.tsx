@@ -10,10 +10,10 @@ type NavbarProps = {
 
 function Navbar(props: NavbarProps) {
   return (
-    <div className={props.displayNavbar}>
-      <div className="md:hidden w-screen h-screen left-0 top-0 bg-lightgrey absolute z-50">
+    <div className={`text-black ${props.displayNavbar}`}>
+      <div className="md:hidden w-screen h-screen bg-lightgrey fixed z-50 text-black">
         <div className="h-screen px-10 py-4 flex flex-col">
-          <div className="w-full flex justify-between items-center text-black">
+          <div className="w-full flex justify-between items-center">
             <NavLink
               onClick={props.closeNavbar}
               to="/"

@@ -66,7 +66,7 @@ function ContactForm() {
         onSubmit={sendEmail}
         className="mt-8 text-black flex flex-col text-xs"
       >
-        <label className="input input-bordered flex items-center gap-2 my-2">
+        <label className="bg-white input input-bordered flex items-center gap-2 my-2">
           Name
           <input
             required
@@ -77,7 +77,7 @@ function ContactForm() {
             className="grow text-darkgrey px-2"
           />
         </label>
-        <label className="input input-bordered flex items-center gap-2 my-2">
+        <label className="bg-white input input-bordered flex items-center gap-2 my-2">
           Email
           <input
             required
@@ -88,7 +88,7 @@ function ContactForm() {
             className="grow text-darkgrey px-2"
           />
         </label>
-        <label className="input input-bordered flex items-center gap-2 my-2">
+        <label className="bg-white input input-bordered flex items-center gap-2 my-2">
           Subject
           <input
             type="text"
@@ -98,7 +98,7 @@ function ContactForm() {
             className="grow text-darkgrey px-2"
           />
         </label>
-        <label className="textarea textarea-bordered flex items-start gap-2 my-2 textarea-md text-base">
+        <label className="bg-white textarea textarea-bordered flex items-start gap-2 my-2 textarea-md text-base">
           Message
           <textarea
             name="message"
@@ -120,7 +120,7 @@ function ContactForm() {
               SEND
             </button>
           )}
-          {}
+          { }
         </div>
       </form>
     </div>
