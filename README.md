@@ -1,17 +1,13 @@
 # Laia Navalón - Developer Portfolio
 
-My own Fullstack Developer Portfolio. This static web-app, built in React, includes all the Commercial and Personal works I have done so far.
+My own Fullstack Developer Portfolio. This static web-app, built in React, includes all the personal and professional works I have done so far.
 
-This project has served as an excuse to practice Typescript and implement it with React, and I have taken the chance to develop new tools and experiment with technologies I hadn't worked with in my coding journey so far.
+<!-- This project has served as an excuse to practice Typescript and implement it with React, and I have taken the chance to develop new tools and experiment with technologies I hadn't worked with in my coding journey so far. -->
 
-<!-- URLs examples
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md)
-- [Babel](https://babeljs.io/) -->
 
 ## Let's work together!
 
-If you're looking for a dedicated developer or want to connect, feel free to reach out!
+Open for collaborations and new frontend roles - reach out anytime!
 
 - [Email](mailto:laianavalon@gmail.com)
 - [LinkedIn](https://www.linkedin.com/in/laianavalonarxe/)
