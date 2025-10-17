@@ -11,7 +11,7 @@ type NavbarProps = {
 function Navbar(props: NavbarProps) {
   return (
     <div className={`text-black ${props.displayNavbar}`}>
-      <div className="md:hidden w-screen h-screen bg-lightgrey fixed z-50 text-black">
+      <div className="md:hidden w-screen h-85vh bg-lightgrey fixed z-50 text-black">
         <div className="h-screen px-10 py-4 flex flex-col">
           <div className="w-full flex justify-between items-center">
             <NavLink
@@ -69,7 +69,7 @@ function Navbar(props: NavbarProps) {
               </svg>
             </button>
           </div>
-          <div className="h-screen px-16 flex flex-col justify-between items-center right-0 py-14">
+          <div className="h-75% px-16 flex flex-col justify-between items-center right-0 py-14">
             <div className="flex flex-col">
               <NavLink
                 to="/about"
