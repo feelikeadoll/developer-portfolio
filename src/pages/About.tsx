@@ -31,9 +31,6 @@ function About() {
               <p className="text-sm md:text-md py-4">
                 I thrive on the challenge of bridging the gap between a great idea and a flawless final product.
               </p>
-              <p className="text-sm md:text-md py-4 pb-6">
-                I'm excited to bring this energy to my next role as a dedicated Frontend Developer.
-              </p>
             </div>
           </div>
           <div className="w-full">
@@ -134,7 +131,7 @@ function About() {
         </div>
       </section>
       <section className="block md:hidden">
-        <div className="bg-aboutPic bg-no-repeat bg-right bg-full h-75% sm:h-85%"
+        <div className="bg-aboutPic bg-no-repeat bg-right bg-full h-65% sm:h-85%"
           style={{ '--about-image-url': `url(${aboutPicURL})` }}></div>
       </section>
       <WorkSection />
