@@ -69,7 +69,7 @@ function Navbar(props: NavbarProps) {
               </svg>
             </button>
           </div>
-          <div className="h-75% px-16 flex flex-col justify-between items-center right-0 py-14">
+          <div className="h-78% px-16 flex flex-col justify-between items-center right-0 py-14">
             <div className="flex flex-col">
               <NavLink
                 to="/about"
