@@ -104,7 +104,7 @@ function ContactForm() {
             name="message"
             value={formData.message}
             onChange={handleTextAreaChange}
-            className="textarea h-28 px-2 py-0 grow text-darkgrey text-base"
+            className="bg-white textarea h-28 px-2 py-0 grow text-darkgrey text-base"
           />
         </label>
         <div className="flex justify-center my-2">
