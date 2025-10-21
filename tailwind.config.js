@@ -8,6 +8,7 @@ export default {
       montserrat: ["Avenir Light", "sans-serif"],
     },
     fontSize: {
+      xs: "0.75rem",
       sm: "0.8rem",
       md: "0.9rem",
       base: "1rem",
@@ -24,6 +25,10 @@ export default {
       "9xl": "8rem",
     },
     extend: {
+      boxShadow: {
+        around:
+          "0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1)",
+      },
       backgroundSize: {
         full: "100%",
         "50%": "50%",
@@ -63,6 +68,7 @@ export default {
           "2px 2px 12px -1px rgb(0 0 0 / 0.1), 0 2px 10px 0 rgb(0 0 0 / 0.1)",
       },
       spacing: {
+        "30%": "30vh",
         "47%": "47vh",
         "50%": "50vh",
         "65%": "65vh",
