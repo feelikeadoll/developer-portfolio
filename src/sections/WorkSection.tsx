@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 import Commercial from "../assets/work-commercial.png";
 import Personal from "../assets/work-personal-1.png";
-import Button from "./Button";
+import Button from "../components/Button";
 
 function WorkSection() {
   return (

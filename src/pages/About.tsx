@@ -1,9 +1,9 @@
 import { HashLink } from "react-router-hash-link";
-import CurrentStack from "../components/CurrentStack";
-import WorkSection from "../components/WorkSection";
+import CurrentStack from "../sections/CurrentStack";
+import WorkSection from "../sections/WorkSection";
 
 import aboutPicURL from '../assets/about-pic.jpg'
-import ResumeSection from "../components/ResumeSection";
+import ResumeSection from "../sections/ResumeSection";
 
 function About() {
   return (

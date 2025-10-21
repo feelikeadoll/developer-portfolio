@@ -14,16 +14,16 @@ function Footer() {
             <div className="flex w-full justify-between md:justify-around lg:justify-between py-16">
               <ul>
                 <Link to="/about">
-                  <li className="py-2">ABOUT</li>
+                  <li className="py-2"><p className="text-sm md:text-md">ABOUT</p></li>
                 </Link>
                 <Link to="/work">
-                  <li className="py-2">WORK</li>
+                  <li className="py-2"><p className="text-sm md:text-md">WORK</p></li>
                 </Link>
                 <Link to="/work/commercial">
-                  <li className="py-2">COMMERCIAL</li>
+                  <li className="py-2"><p className="text-sm md:text-md">COMMERCIAL</p></li>
                 </Link>
                 <Link to="/work/personal">
-                  <li className="py-2">PERSONAL</li>
+                  <li className="py-2"><p className="text-sm md:text-md">PERSONAL</p></li>
                 </Link>
               </ul>
               <ul className="3xl:pr-20">
@@ -50,11 +50,11 @@ function Footer() {
                       ></path>
                     </g>
                   </svg>
-                  <h5 className="px-2">EMAIL</h5>
+                  <p className="text-sm md:text-md px-2">EMAIL</p>
                 </li>
                 <li className="py-2 underline underline-offset-2">
                   <a href="mailto:laianavalon@gmail.com">
-                    laianavalon@gmail.com
+                    <p className="text-sm md:text-md">laianavalon@gmail.com</p>
                   </a>
                 </li>
                 <li className="py-2 flex items-center">
@@ -80,11 +80,11 @@ function Footer() {
                       ></path>
                     </g>
                   </svg>
-                  <p className="px-2">PHONE</p>
+                  <p className="text-sm md:text-md px-2">PHONE</p>
                 </li>
                 <li className="py-2 underline underline-offset-2">
                   <a href="https://wa.me/34620182796" target="_blank">
-                    +34 620 182 796
+                    <p className="text-sm md:text-md">+34 620 182 796</p>
                   </a>
                 </li>
               </ul>
@@ -167,7 +167,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="xl:px-12 2xl:px-24 mx-auto bg-white flex flex-col items-center py-4 text-sm">
+      <div className="text-gray-900 xl:px-12 2xl:px-24 mx-auto bg-white flex flex-col items-center py-4 text-sm">
         <p>© 2025, built by Laia Navalón Arxé.</p>
         <p className="text-center">Technologies used: React, Typescript, TailwindCss. Deployed with Netlify.</p>
       </div>

@@ -1,5 +1,5 @@
 import { HashLink } from "react-router-hash-link";
-import WorkSection from "../components/WorkSection";
+import WorkSection from "../sections/WorkSection";
 
 import workPicURL from '../assets/work-pic.jpg'
 
