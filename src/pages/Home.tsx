@@ -5,7 +5,6 @@ import Button from "../components/Button";
 import RigthArrow from "../components/RightArrow";
 
 import introPicURL from '../assets/intro-pic.jpg'
-import SlideOnHover from "../components/SlideOnHover";
 
 function Home() {
   return (
