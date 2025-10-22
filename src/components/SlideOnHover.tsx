@@ -1,11 +1,14 @@
 import { useState } from 'react';
-// import SlideBar from './SlideBar'; // If in a separate file
+import Gadriana1 from '../assets/works/gadriana-1.jpg'
+import Gadriana2 from '../assets/works/gadriana-2.jpg'
+import Gadriana3 from '../assets/works/gadriana-3.jpg'
 
-// Define SlideBar here if keeping everything in one file (recommended for this example)
-const BASE_CLASSES = "transition-all rounded-xl shadow-around bg-white";
-const BIG_CLASSES = "h-47% w-2/5";
-const SMALL_CLASSES = "h-30% w-1/4";
+// --- CONSTANTS ---
+const BASE_CLASSES = "transition-all rounded-xl shadow-around bg-white relative overflow-hidden";
+const BIG_CLASSES = "h-45% w-52";
+const SMALL_CLASSES = "h-20% w-22";
 
+// --- TYPES ---
 type OnMouseEnterType = (barId: string) => void;
 type OnMouseLeaveType = () => void;
 
@@ -13,53 +16,58 @@ type SlideBarProps = {
     barId: string;
     activeBar: string;
     onMouseEnter: OnMouseEnterType;
-    onMouseLeave: OnMouseLeaveType
+    onMouseLeave: OnMouseLeaveType;
+    imgSrc: string;
 }
-function SlideBar({ barId, activeBar, onMouseEnter, onMouseLeave }: SlideBarProps) {
+
+// --- CHILD COMPONENT ---
+function SlideBar({ barId, activeBar, onMouseEnter, onMouseLeave, imgSrc }: SlideBarProps) {
     const isBig = activeBar === barId;
     const sizeClasses = isBig ? BIG_CLASSES : SMALL_CLASSES;
+
     return (
         <div
             className={`${BASE_CLASSES} ${sizeClasses}`}
             onMouseEnter={() => onMouseEnter(barId)}
             onMouseLeave={onMouseLeave}
-        ></div>
+        >
+            <img
+                src={imgSrc}
+                alt={`Gadriana Studio website by Laia Navalon Arxe`}
+                className="absolute inset-0 w-full h-full object-cover"
+            />
+        </div>
     );
 }
 
+// --- PARENT COMPONENT ---
 function SlideOnHover() {
-    const [activeBar, setActiveBar] = useState('bar2');
+    const [activeBar, setActiveBar] = useState<string>('bar2');
 
-    function handleMouseEnter(barId: string) {
+    const handleMouseEnter: OnMouseEnterType = (barId) => {
         setActiveBar(barId);
     };
-    function handleMouseLeave() {
-    };
+    const handleMouseLeave: OnMouseLeaveType = () => { };
+
+    // Define the data for all bars in an array
+    const barData = [
+        { id: "bar1", imgSrc: Gadriana1 },
+        { id: "bar2", imgSrc: Gadriana2 },
+        { id: "bar3", imgSrc: Gadriana3 },
+    ];
 
     return (
-        <div className="h-47% w-full flex justify-between items-end">
-
-            <SlideBar
-                barId="bar1"
-                activeBar={activeBar}
-                onMouseEnter={handleMouseEnter}
-                onMouseLeave={handleMouseLeave}
-            />
-
-            <SlideBar
-                barId="bar2"
-                activeBar={activeBar}
-                onMouseEnter={handleMouseEnter}
-                onMouseLeave={handleMouseLeave}
-            />
-
-            <SlideBar
-                barId="bar3"
-                activeBar={activeBar}
-                onMouseEnter={handleMouseEnter}
-                onMouseLeave={handleMouseLeave}
-            />
-
+        <div className="h-45% w-full flex justify-between items-end">
+            {barData.map((bar) => (
+                <SlideBar
+                    key={bar.id}
+                    barId={bar.id}
+                    activeBar={activeBar}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                    imgSrc={bar.imgSrc}
+                />
+            ))}
         </div>
     );
 }
