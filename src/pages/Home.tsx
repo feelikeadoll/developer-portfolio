@@ -107,7 +107,7 @@ function Home() {
         className="w-full px-10 xl:px-8 2xl:px-6 bg-midgrey text-black h-full lg:h-screen"
       >
         <div className="xl:px-12 2xl:px-24 mx-auto flex justify-between items-center">
-          <div className="flex flex-col justify-between h-screen">
+          <div className="w-full flex flex-col justify-between h-screen">
             <h1 className="pt-16 xl:pt-20">WORK</h1>
             <SlideOnHover />
             <div className="w-full flex flex-col md:flex-row justify-between items-start md:items-center mt-8 mb-12 md:mb-20">
@@ -127,7 +127,7 @@ function Home() {
       >
         <div className="xl:px-12 2xl:px-24 mx-auto flex flex-col justify-between items-start">
           <h1 className="text-5xl md:text-7xl pt-16">Personal projects</h1>
-          <div className="flex py-12 px-4">
+          <div className="w-full flex py-12 px-4">
             <div className="w-1/2 h-50% flex flex-col justify-between">
               <p className="text-sm md:text-base md:w-7/12">
                 I have always enjoyed creating for pleasure. Inspired by my

@@ -5,7 +5,7 @@ import Gadriana3 from '../assets/works/gadriana-3.jpg'
 
 // --- CONSTANTS ---
 const BASE_CLASSES = "transition-all rounded-xl shadow-around bg-white relative overflow-hidden";
-const BIG_CLASSES = "h-45% w-52";
+const BIG_CLASSES = "h-47% w-52";
 const SMALL_CLASSES = "h-20% w-22";
 
 // --- TYPES ---
@@ -57,7 +57,7 @@ function SlideOnHover() {
     ];
 
     return (
-        <div className="h-45% w-full flex justify-between items-end">
+        <div className="h-47% w-full flex justify-between items-end">
             {barData.map((bar) => (
                 <SlideBar
                     key={bar.id}
