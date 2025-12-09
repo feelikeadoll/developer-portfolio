@@ -57,7 +57,7 @@ function SlideOnHover() {
     ];
 
     return (
-        <div className="md:px-10 xl:px-20 2xl:px-30 h-47% ml-10- w-screen md:w-full flex justify-between items-end">
+        <div className="h-47% ml-10- w-screen md:w-full flex justify-between items-end">
             {barData.map((bar) => (
                 <SlideBar
                     key={bar.id}
