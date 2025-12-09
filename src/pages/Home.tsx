@@ -141,7 +141,9 @@ function Home() {
                 </button>
               </div>
             </div>
-            <div className="w-2/3 border rounded-xl shadow-project"></div>
+            <div className="w-2/3 border rounded-xl shadow-project flex items-center justify-center">
+              <p className="text-sm">Under construction</p>
+            </div>
           </div>
         </div>
       </section>

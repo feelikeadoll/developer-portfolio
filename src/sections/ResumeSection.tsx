@@ -50,7 +50,9 @@ function ResumeSection() {
             </div>
           </div>
           <div className="flex justify-center mt-16 mb-20 md:mb-0 pb-20">
-            <Button text="SEE MORE" />
+            <a href="https://www.linkedin.com/in/laianavalonarxe/" target="_blank">
+              <Button text="SEE MORE" />
+            </a>
           </div>
         </div>
       </div>
